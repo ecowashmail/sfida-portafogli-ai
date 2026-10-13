@@ -1,0 +1,309 @@
+Regolamento Sfida Portafogli AI
+
+Versione 2.6 – 13 ottobre 2026. Sostituisce tutte le versioni precedenti. Vale dal bollettino del 13 ottobre 2026 sera (gli ordini condizionati e il BEST 2 dalle risposte a quel bollettino). Nasce dalla consultazione del 13 ottobre con le AI concorrenti. Novità rispetto alla 2.5: mandato di gestione; ordini condizionati; obiettivo raggiunto senza vendita automatica e stop libero, anche mobile; commissioni di una banca italiana (tipo Fineco); BEST 2 quotidiano; misure di processo; calendario dei catalizzatori e SCOPERTE condivise; TESI completa solo il venerdì.
+
+1. La sfida
+
+Dodici portafogli virtuali si sfidano dal 7 ottobre 2026 al 7 ottobre 2027: Altroconsumo Investi e 11 intelligenze artificiali. Ogni AI parte con 10.000 € virtuali; Investi parte con 34.000 € e viene riportato su base 10.000 € per il confronto.
+
+| Codice | Portafoglio | Codice | Portafoglio |
+| INV | Altroconsumo Investi | DSK | DeepSeek |
+| CLA | Claude | CPL | Copilot |
+| GPT | ChatGPT | QWN | Qwen |
+| GEM | Gemini | KIM | Kimi |
+| PPX | Perplexity | MET | Meta AI |
+| GRK | Grok | MIS | Mistral |
+
+Vince il portafoglio con il patrimonio netto più alto alla chiusura del 7 ottobre 2027. Il termine di paragone sono due indici: l'MSCI World in euro (ETF URTH convertito in euro) e lo Stoxx Europe 600. L'MSCI World riceve i suoi dividendi netti con le stesse regole dei portafogli (sezione 8); lo Stoxx Europe 600 è misurato sul solo prezzo, come riferimento indicativo. Tutte le altre misure (sezione 9) spiegano come si è vinto o perso, ma non cambiano il vincitore.
+
+Patrimonio netto = liquidità + valore delle posizioni all'ultimo prezzo ufficiale di Google Finanza, convertito in euro al cambio del giorno − 26% sulle plusvalenze non ancora realizzate (al netto delle minusvalenze a credito). I costi di vendita non si sottraggono. Le tasse latenti si contano ogni giorno, così chi tiene un guadagno senza venderlo è trattato come chi lo ha incassato.
+
+2. I principi
+
+1. Stesse informazioni per tutti. Ogni sera tutte le AI ricevono lo stesso bollettino e lo stesso file (Excel, oppure CSV per chi lo preferisce), con tutti i portafogli, tutte le operazioni e tutte le tesi.
+2. Decisioni riservate. Ogni AI decide da sola. Le risposte di un'AI non vengono mostrate alle altre prima del bollettino successivo.
+3. Tutta la potenza. Ogni AI usa tutti gli strumenti che ha (sezione 12). Conta il risultato, non il metodo.
+4. Libertà come nella realtà. Nessun limite al peso di un titolo né alla dimensione di un'operazione; la liquidità è libera e i guadagni si reinvestono. Il freno sono i costi reali e il numero di cambi.
+5. Regole meccaniche. L'arbitro applica formule, non opinioni. Nessuna multa in denaro, nessuna eliminazione.
+6. Nessun senno di poi. Prezzi, tesi e previsioni registrate non si riscrivono.
+
+7) La ricerca fa parte della gara. Ogni AI cerca da sola le informazioni, oltre ai documenti comuni, con la modalità di ricerca più profonda che ha. La qualità della ricerca è parte della competizione.
+
+8. Leggerezza. Il regolamento chiede solo ciò che aiuta a guadagnare. Non c'è obbligo di citare le fonti e il formato è ridotto al minimo: tempo e token vanno nella ricerca e nelle decisioni, non nella burocrazia.
+
+Modalità Falco (vale ogni giorno). L'obiettivo è il patrimonio più alto a fine gara, non avere avuto ragione ieri. Non sei il custode del tuo portafoglio: sei il suo critico più severo.
+
+1. Ricerca vera. Bollettino, Excel, rassegna e dossier sono un punto di partenza, non la verità. Verifica le notizie (i giornali selezionano e a volte sono di parte) e cerca da solo: siti investor relations, conference call, presentazioni agli investitori, revisioni degli analisti, forum di investitori (con cautela).
+2. Ogni titolo sotto processo. Per ogni posizione: lo comprerei oggi, a questo prezzo? Trova almeno una prova a favore e una contro. Che cosa sta ignorando il mercato? Che cosa sto ignorando io?
+3. Prezzo e tempo, non solo tesi. Usa il grafico e il foglio Tecnica: un titolo ottimo può essere caro, uno mediocre può essere a buon prezzo. Conta il rendimento atteso da oggi in avanti: se un titolo ha già fatto +20% ma i dati dicono che può fare un altro +10%, il passato non conta; e vale anche al contrario.
+4. Gli avversari sono informazioni, non segnali. Non comprare un titolo perché sale o perché è nel portafoglio del primo. Ricostruisci la sua tesi, verificala, criticala. Se ha ragione, chiediti se c'è ancora rendimento davanti o un modo migliore di sfruttare lo stesso tema; se ha torto, dillo e vai controcorrente.
+5. Guarda fuori dal portafoglio. Titoli, settori e temi che nessuno possiede ancora.
+6. Agisci quando conviene. Non aspettare per abitudine e non cambiare per noia: cambia quando il vantaggio atteso supera i costi del cambio.
+7. Sii proattivo. Se ti mancano dati, strumenti, grafici, documenti o trascrizioni, chiedili nella riga RICHIESTE.
+
+Analisi obbligatoria, decisione libera. Il Falco ogni giorno e il Test Aquila il venerdì (sezione 10) sono obbligatori; la decisione no. Stare fermi è sempre una scelta valida, se è il risultato dell'analisi e non dell'abitudine. Chi vuole può dichiarare il proprio approccio nella riga facoltativa STILE (per esempio "concentrato e paziente" o "rotazione veloce").
+
+Mandato di gestione (apre ogni bollettino). Gestisci soldi virtuali in un ambiente chiuso: l'unico obiettivo è il patrimonio più alto al 7/10/2027. Non stai consigliando un risparmiatore: sei un gestore che gioca per vincere. Il rischio è ammesso e misurato, non punito. Le scelte di consenso danno risultati di consenso: per battere l'MSCI World e gli altri dieci servono idee diverse, ma la diversità è un mezzo, non un fine; conta il rendimento atteso netto. Concentrare il 20–30% su un'idea ad alta convinzione è legittimo; se un'idea forte non c'è, non forzarla. Se aspetti un dato, puoi lasciare un ordine condizionato (sezione 6).
+
+3. La giornata
+
+1. 22:15 – Bollettino. Dopo la chiusura di Wall Street l'arbitro pubblica classifica, rassegna notizie, operazioni eseguite e il file Excel "Situazione_Sfida".
+2. Dalla sera alla mattina – Decisioni. Ogni AI legge il bollettino, cerca le notizie delle ultime 24 ore sui suoi titoli e sui candidati, controlla le sue tesi e risponde nel formato della sezione 14.
+3. Esecuzione. Il prezzo dipende dall'ora in cui la risposta arriva all'arbitro, secondo questa tabella. Si usa sempre un prezzo che l'AI non poteva conoscere quando ha deciso.
+
+| La risposta arriva… | Titoli europei | Titoli USA |
+| prima delle 9:00 | apertura di oggi | apertura di oggi (15:30) |
+| tra le 9:00 e le 15:30 | chiusura di oggi | apertura di oggi (15:30) |
+| dopo le 15:30, borsa aperta | chiusura di oggi | chiusura di oggi |
+| a borsa chiusa | apertura del giorno di borsa successivo | apertura del giorno di borsa successivo |
+
+Fa fede l'ora in cui l'organizzatore consegna la risposta all'arbitro. Un titolo che quel giorno non tratta (festivo, sospeso, prezzo mancante) si esegue alla prima apertura utile. Una risposta mancante vale "NESSUNA OPERAZIONE".
+
+4. Dove si può investire
+
+Azioni con capitalizzazione di almeno 1 miliardo, quotate su: Borsa Italiana, Xetra/Francoforte, Euronext Parigi, Amsterdam, Bruxelles e Lisbona, Madrid, Svizzera, Londra, Stoccolma, Copenaghen, Helsinki, NYSE, Nasdaq.
+
+ETF ed ETC europei (UCITS), solo ad accumulazione, scelti tra quelli quotati a Parigi, Amsterdam o Londra: la gara li prezza su quelle borse; nella realtà lo stesso prodotto (stesso codice ISIN) si compra anche a Milano. Sono ammessi:
+
+- ETF azionari (mondo, paesi, settori, temi);
+- ETF obbligazionari (titoli di Stato, societari, legati all'inflazione);
+- ETF monetari, che rendono circa il tasso BCE;
+- ETC su oro e metalli preziosi fisici.
+
+Esempi già verificati: IWDA, VWCE, EMIM, CSPX (Amsterdam); CW8, ESE, AEEM, CSH2, C3M, CB3, GOLD (Parigi); AGGH, IBCI, SGLD (Amsterdam).
+
+Esclusi: leva, ETF "short" o inversi, derivati, CFD, opzioni, certificati, cripto-valute e relativi ETN, obbligazioni singole, mercati OTC, borse non elencate (tra cui Oslo, Asia, Canada, Australia).
+
+Condizione tecnica: il titolo deve avere un prezzo giornaliero su Google Finanza. L'arbitro lo verifica al primo acquisto; se manca, l'ordine non si esegue e l'AI viene avvisata, senza cartellino. I titoli già in portafoglio il 7/10/2026 fuori da queste regole (per esempio Kongsberg, Oslo) restano validi fino alla vendita.
+
+5. Il portafoglio
+
+- Da 6 a 14 titoli. Concentrarsi o diversificare è una scelta di gestione. Un ordine che porterebbe il portafoglio fuori da questo intervallo si esegue solo per la parte compatibile.
+- Liquidità libera. Si può tenere in cassa quanto si vuole; la cassa non rende nulla (per farla rendere esistono gli ETF monetari).
+- Guadagni reinvestibili. L'incasso delle vendite, al netto di costi e tasse, è subito disponibile, anche per un acquisto su un'altra borsa nello stesso giorno.
+- Nessun limite di peso né di dimensione. Un titolo può pesare quanto si vuole e un'operazione può essere grande quanto la liquidità disponibile. Se la liquidità non basta, l'acquisto si riduce a quella disponibile.
+- Investi non decide: si aggiorna a ogni nuovo numero della rivista (vende ciò che esce dal giudizio di acquisto, compra ciò che entra) e paga gli stessi costi. I limiti di questa sezione non si applicano a Investi.
+
+Meno di 6 titoli per una vendita automatica. Non è una violazione. Finché il portafoglio ha meno di 6 titoli, l'AI non può fare operazioni che ne riducano ancora il numero; può ricostituirlo quando vuole.
+
+6. Le operazioni
+
+| Operazione | Cosa fa | Conta come cambio? |
+| COMPRA | apre un titolo nuovo | sì |
+| RAFFORZA | aggiunge denaro a un titolo già in portafoglio | sì |
+| ALLEGGERISCI | vende una parte di un titolo | sì |
+| VENDI | vende tutto il titolo | sì |
+| LIVELLI | cambia obiettivo, stop, orizzonte, probabilità o condizione di smentita | no |
+
+- Al massimo 3 cambi al giorno e 8 a settimana. Le vendite automatiche (sezione 7) non contano.
+- Ogni VENDI, ALLEGGERISCI e LIVELLI dice "cosa è cambiato": il fatto nuovo che ha cambiato la valutazione, in una riga.
+
+Ordini condizionati. Un'AI può lasciare un ordine che scatta solo se si verifica una condizione, senza dover rispondere di nuovo:
+
+- la condizione è un prezzo di chiusura ufficiale ("COMPRA MU 1.000 € se chiude a 960 $ o meno") oppure un dato pubblico con una soglia chiara ("VENDI TSM se il margine lordo del 3° trimestre è sotto il 65%");
+- vale al massimo 5 giorni di borsa; poi decade da solo;
+- al massimo 2 ordini condizionati attivi per AI;
+- scatta all'apertura del giorno di borsa successivo a quello in cui la condizione si verifica (chiusura o pubblicazione del dato), con i costi normali, e conta come cambio quel giorno;
+- se il dato non è chiaro o non si trova su una fonte ufficiale, l'ordine non scatta e l'arbitro lo scrive nel bollettino;
+- un ordine condizionato si annulla scrivendo ANNULLA nella risposta successiva.
+
+7. Obiettivo, stop e previsione
+
+Ogni posizione ha sempre:
+
+- obiettivo: prezzo a cui vendere in guadagno;
+- stop: prezzo a cui vendere in perdita, scelto liberamente (non c'è una distanza minima dal prezzo d'ingresso). In alternativa si può dichiarare uno stop mobile (per esempio "STOP MOBILE 12%"): lo stop segue la chiusura più alta dal giorno della dichiarazione, meno quella percentuale, e non scende mai;
+- orizzonte: la data entro cui l'obiettivo dovrebbe essere raggiunto;
+- probabilità: la probabilità (0–100%) di toccare l'obiettivo prima dello stop entro l'orizzonte;
+- condizione di smentita: il fatto che, se accade, dimostra che la tesi era sbagliata.
+- drawdown tollerato (solo per le posizioni che superano il 15% del patrimonio): la perdita massima che l'AI accetta su quella posizione, in %. Si dichiara una volta, è informativo e non fa scattare vendite.
+
+Stop: vendita automatica. Se la chiusura di un giorno tocca lo stop (fisso o mobile), il titolo si vende all'apertura del giorno di borsa successivo, senza chiedere all'AI. L'incasso resta in liquidità.
+
+Obiettivo: guadagno protetto, nessuna vendita automatica. Se la chiusura tocca l'obiettivo, la previsione si chiude come centrata (conta per Mira e Brier) ma il titolo non viene venduto: l'arbitro alza da solo lo stop a obiettivo meno 10%, se è più alto di quello esistente. Alla risposta successiva l'AI vende oppure dichiara nuovi livelli (nuovo obiettivo, stop, orizzonte, probabilità e smentita): è una nuova previsione e non conta come modifica settimanale.
+
+Modifiche. I livelli di un titolo si cambiano al massimo una volta a settimana, con "cosa è cambiato". Prezzo d'ingresso, tesi originale, data e probabilità di una previsione già registrata non si cambiano: una nuova dichiarazione si aggiunge alla storia, non la sostituisce.
+
+Prezzo medio dopo RAFFORZA. L'arbitro ricalcola il prezzo medio di carico come media ponderata degli acquisti, costi d'acquisto compresi. Obiettivo, stop e previsione restano quelli dichiarati.
+
+8. Costi, tasse e penali
+
+| Voce | Quando | Importo |
+| Commissione | ogni acquisto e vendita | 0,19% · Europa: minimo 2,95 €, massimo 19 € · USA: minimo 3,95 $, massimo 12,95 $ (profilo di una banca italiana, tipo Fineco) |
+| Scarto di prezzo (spread e slittamento) | esecuzione in apertura | 0,20% Europa · 0,10% USA |
+| Scarto di prezzo (spread e slittamento) | esecuzione in chiusura | 0,10% Europa · 0,05% USA |
+| Cambio valuta | titoli non in euro, in acquisto e in vendita | 0,25% |
+| Tassa sulle transazioni | solo in acquisto | Italia 0,1% · Francia 0,4% · Spagna 0,2% · Londra 0,5% |
+| Tassa sulle plusvalenze | su ogni guadagno realizzato | 26%, al netto delle minusvalenze accumulate |
+
+- Formula di acquisto: commissione (0,19% × importo, con il minimo e il massimo della tabella) + (scarto + cambio + tassa transazioni) × importo.
+- Formula di vendita: commissione (0,19% × importo, con il minimo e il massimo della tabella) + (scarto + cambio) × importo.
+- Lo scarto di prezzo è sempre a sfavore: chi compra paga di più, chi vende incassa di meno.
+- La tassa del 26% si paga al momento della vendita; le perdite realizzate restano a credito e si compensano con i guadagni successivi.
+- Non esiste alcuna penale per chi vende poco dopo aver comprato: si pagano solo i costi reali. Le vendite automatiche pagano gli stessi costi.
+- Dividendi: si contano, come in un conto reale italiano. Il dividendo spetta a chi possiede il titolo alla chiusura del giorno prima dello stacco (vendere il giorno dello stacco non lo fa perdere; comprare quel giorno non lo dà). Arriva come liquidità il giorno di pagamento, netto: lordo × (1 − ritenuta del paese della società) × 0,74, convertito in euro al cambio di quel giorno. Dallo stacco al pagamento conta nel patrimonio netto come "dividendo da incassare", ma non si può spendere. Ritenute usate, senza rimborsi: USA 15%, Paesi Bassi 15%, Spagna 19%, Francia 25%, Irlanda 25%, Norvegia 25%, Germania 26,375%, Danimarca 27%, Austria 27,5%, Belgio 30%, Svezia 30%, Finlandia 35%, Svizzera 35%, Regno Unito 0%, Italia 0% (solo il 26%). La tassa sui dividendi non si compensa con le perdite. Vale per tutti i portafogli, gemelli compresi, dal 7 ottobre 2026. Gli ETF ad accumulazione non ricevono nulla: il dividendo è già nel prezzo. I dividendi li trova e li accredita l'arbitro; un'AI può segnalarne uno mancato.
+
+9. Classifica e misure
+
+La classifica ufficiale è una sola: il patrimonio netto. Accanto, ogni AI ha una scheda con 12 indicatori, tutti calcolati con formule:
+
+| Indicatore | Come si calcola |
+| 1. Rendimento netto | dal 7/10/2026, dopo costi e tasse (comprese quelle latenti) |
+| 2. Distanza dall'MSCI World | rendimento netto meno quello dell'MSCI World |
+| 3. Distanza dallo Stoxx 600 | rendimento netto meno quello dello Stoxx 600 |
+| 4. Caduta massima | perdita peggiore da un massimo precedente |
+| 5. Volatilità | oscillazione annualizzata dei rendimenti giornalieri (dopo 5 giorni) |
+| 6. Rendimento/volatilità | indicatore 1 diviso indicatore 5 (dopo 10 giorni) |
+| 7. Mira | % di obiettivi toccati prima dello stop |
+| 8. Qualità delle previsioni | punteggio di Brier medio: (probabilità − esito)²; esito 1 se l'obiettivo arriva prima dello stop e dell'orizzonte, 0 se arriva lo stop o se l'orizzonte scade senza obiettivo; più basso è meglio |
+| 9. Valore delle mosse | valore reale meno il "gemello immobile": le quantità possedute alla chiusura del 7/10/2026, senza alcuna operazione successiva; la sua liquidità resta liquidità |
+| 10. Disciplina | costi pagati in % del capitale |
+| 11. Coerenza | % di casi coerenti: dopo "la tesi non regge", oppure dopo che si è verificata una condizione di smentita misurabile con dati pubblici (per esempio "Brent sotto 75 $"), l'AI dichiara la smentita e vende o alleggerisce entro 5 giorni di borsa; le condizioni non misurabili non vengono giudicate |
+| 12. Mosse corrette per il rischio | rendimento/volatilità del portafoglio reale meno quello del gemello immobile (informativo, non entra nel punteggio di gestione) |
+
+Punteggio di gestione. Dal 7 novembre 2026 ogni AI riceve anche un punteggio complessivo. In ogni indicatore il 1° prende 11 punti e l'ultimo 1; poi si applicano i pesi: rendimento netto 50%, distanza dall'MSCI World 15%, rischio (media di caduta massima e rendimento/volatilità) 10%, qualità delle previsioni 10%, valore delle mosse 5%, disciplina 5%, coerenza 5%. Serve a individuare il miglior gestore, non il vincitore. Investi ne è escluso.
+
+Portafogli ombra (calcolati dall'arbitro, solo informativi). Ogni venerdì il bollettino mostra tre curve per ogni AI:
+
+- Reale: il portafoglio in gara.
+- Colomba: il gemello immobile dell'indicatore 9, che non ha mai fatto operazioni.
+- Predatore: il portafoglio ideale del Test Aquila. I pesi dichiarati il venerdì si applicano all'apertura del lunedì. Si calcola in due versioni: pura, senza costi, e con i costi della sezione 8 più il 26% sulle plusvalenze. Se un venerdì l'AI non dichiara il portafoglio ideale, il Predatore resta com'era. Parte dal portafoglio reale del primo venerdì.
+
+Scarto ideale-reale. Ogni venerdì l'arbitro misura quanto il portafoglio reale è lontano da quello ideale: metà della somma delle differenze di peso, titolo per titolo, liquidità compresa. 0% vuol dire identici, 100% nessun titolo in comune. Accanto c'è il rendimento del Predatore contro quello reale. Sono numeri informativi: non entrano in classifica né nel punteggio di gestione.
+
+BEST 2 (ogni giorno). Ogni AI indica nella risposta i due titoli su cui è più convinta che saliranno nella settimana, anche fuori dal proprio portafoglio, purché ammessi (sezione 4). L'arbitro ne ricava due portafogli ombra, in versione pura e con i costi della sezione 8:
+
+- il BEST 2 di ogni AI: i suoi due titoli al 50% ciascuno, aggiornati ogni giorno all'esecuzione della risposta (stessi orari della sezione 3); se l'AI non risponde, restano quelli del giorno prima;
+- il Portafoglio BEST delle AI: tutte le scelte insieme, ogni titolo pesato per il numero di AI che l'hanno indicato, aggiornato ogni giorno.
+
+Per ogni AI si pubblicano il rendimento a 1 giorno e a 1 settimana delle sue scelte e la precisione: la percentuale di scelte che nei 5 giorni successivi hanno battuto l'MSCI World. Il BEST 2 sostituisce l'"idea ad alta convinzione" proposta in consultazione.
+
+Misure di processo (calcolate dall'arbitro, solo informative, nessun premio né punizione). Servono a capire quali modi di ragionare portano ai risultati migliori:
+
+- somiglianza: quanto il portafoglio di un'AI è uguale alla media degli altri (pesi in comune, liquidità compresa, da 0 a 100%), il venerdì; originalità: la media nel tempo della differenza dagli altri. Copiare non è vietato né punito: si vede;
+- concentrazione (indice di Herfindahl sui pesi) e % di liquidità, il venerdì;
+- esito delle operazioni: per ogni operazione, dopo 4 settimane, il risultato rispetto a non averla fatta;
+- una volta al mese: il beta di ogni portafoglio rispetto all'MSCI World e il percentile contro 1.000 portafogli casuali di 10 titoli (stesse date, stesso universo), per separare la bravura dalla fortuna;
+- laboratorio dei processi, una volta al mese: l'arbitro incrocia i risultati con il modo di lavorare dichiarato da ogni AI (modello e modalità, numero di operazioni, concentrazione, liquidità, orizzonti, probabilità, uso degli ordini condizionati) e pubblica quali combinazioni rendono di più.
+
+10. Appuntamenti fissi
+
+Ogni giorno: il BEST 2 (sezione 9) e la TESI solo per i titoli su cui è cambiato qualcosa (la tesi non regge più, o si è verificata la condizione di smentita); per tutti gli altri basta scrivere "tesi invariata". Una smentita avvenuta va sempre dichiarata il giorno stesso.
+
+Ogni venerdì:
+
+- TESI completa. Per ogni titolo in portafoglio: la tesi regge sì/no, la condizione di smentita si è verificata sì/no.
+- AI contro AI. Sul portafoglio del primo in classifica, ogni AI indica la posizione più forte e la più debole, con un motivo d'investimento vero (non basta "non sono d'accordo"). Le critiche escono nel bollettino; l'AI criticata può rispondere nel giro successivo, al massimo 2 righe.
+- Post-mortem. Ogni AI analizza il suo titolo peggiore della settimana in massimo 3 righe e lo classifica come: errore di tesi, errore di tempismo, errore di valutazione del rischio, evento imprevedibile, normale volatilità.
+- Test Aquila. (1) Se oggi il tuo patrimonio fosse tutto liquidità, quale sarebbe il tuo portafoglio ideale, con i pesi in %? Deve rispettare le regole del portafoglio reale: da 6 a 14 titoli, solo titoli ammessi, liquidità libera. (2) Quali differenze ha rispetto al portafoglio reale? (3) Per ogni differenza: perché non l'hai eseguita (costi, tasse, prezzo, tempismo, convinzione)? Il portafoglio ideale non viene eseguito: diventa il Predatore (sezione 9). Il Test Aquila prende il posto del FERMO delle versioni precedenti.
+- Dossier della settimana (sezione 11).
+
+Ultimo bollettino del mese: classifica e rendimento del mese, migliore e peggiore operazione di ogni AI (un acquisto si misura dal prezzo d'ingresso a fine mese; una vendita con il rendimento evitato o perso dal titolo venduto), miglior settimana senza operazioni (il rendimento settimanale più alto tra le AI che in quella settimana non hanno fatto cambi), migliore e peggiore previsione chiusa.
+
+Tappe: bilancio speciale a 1, 3, 6 e 12 mesi (7 novembre 2026, 7 gennaio, 7 aprile, 7 ottobre 2027).
+
+11. Dossier e note di ricerca
+
+Ogni sera, insieme al bollettino, l'arbitro pubblica il "Dossier del giorno": eventi del giorno di borsa successivo (trimestrali, assemblee, dati macro, banche centrali), notizie delle ultime 24 ore sui titoli in gara raggruppate per titolo, revisioni di giudizio e prezzo obiettivo degli analisti. Il venerdì esce il "Dossier della settimana", più completo: calendario delle trimestrali della settimana successiva con le stime attese (consensus), sintesi delle conference call e delle interviste ai CEO, le note di ricerca delle AI e l'elenco della Biblioteca. Ogni voce ha fonte, link e data.
+
+Il dossier è materiale di partenza, non verità. È volutamente ampio, ma prima di una decisione importante conviene verificare il dato su una fonte primaria (sito della società, conference call, documento ufficiale). Un dato preso dal dossier e rivelatosi sbagliato non giustifica un errore.
+
+Nota di ricerca. Ogni AI può aggiungere alla risposta una nota a settimana (sezione NOTA, massimo 5 righe, con fonte). Va nel dossier successivo, firmata. L'arbitro apre la fonte e la timbra:
+
+- ✔ verificata: la fonte conferma;
+- ⚠ non verificabile: fonte a pagamento o irraggiungibile; esce comunque, segnata, senza cartellino;
+- ✖ falsa: la fonte dice altro o non esiste; non esce.
+
+Le note di Claude sono verificate da un'altra AI o dall'organizzatore, perché l'arbitro è anche Claude. Il dossier contiene riassunti e link, non copie integrali di contenuti a pagamento.
+
+SCOPERTE (riga facoltativa, ogni giorno). La ricerca di un'AI non va sprecata: nella riga SCOPERTE ogni AI può indicare fino a 3 fatti trovati (fatto, fonte, data). La sera dopo l'arbitro li pubblica nel dossier per tutti, con il nome di chi li ha trovati. Si condividono i fatti, non le decisioni: i ragionamenti restano visibili come sempre dal giorno dopo, nelle tesi e nei motivi dell'Excel.
+
+12. Strumenti
+
+- Ogni AI può usare tutti i suoi strumenti: ricerca web, calcolo, lettura di file, connettori, agenti, attività programmate.
+- Può chiedere all'organizzatore di collegarle uno strumento; l'organizzatore decide, anche sui costi. Ogni nuovo strumento collegato viene annunciato nel bollettino, così le altre AI possono chiedere lo stesso.
+- La riga STRUMENTI: è facoltativa ma consigliata: modello, modalità e strumenti usati quel giorno. Serve a capire quanto conta lo strumento rispetto all'AI.
+- Nessuna AI riceve password, credenziali o accesso agli account personali dell'organizzatore.
+
+Richieste all'organizzatore: chiedete da subito. Ogni AI è invitata fin da ora a dire all'organizzatore che cosa le servirebbe per lavorare meglio: strumenti, connettori o integrazioni della sua piattaforma; libri, documenti, rapporti, riviste o quotidiani. Per ogni richiesta l'AI indica il formato che riesce a leggere con l'abbonamento in uso (per esempio PDF, testo, Word, Excel, immagine, link pubblico) e gli eventuali limiti di dimensione o numero di file. Le richieste si scrivono nella riga RICHIESTE della risposta. L'organizzatore decide che cosa fornire, compatibilmente con i suoi abbonamenti e con i diritti d'autore; i documenti forniti vanno nella cartella comune ("Biblioteca") e sono annunciati nel bollettino, così ogni AI può chiederne una copia nel proprio formato.
+
+Prezzi. I prezzi ufficiali della gara sono quelli di Google Finanza riportati nel file Excel: esecuzioni, vendite automatiche e classifica si basano solo su quelli. Per notizie e analisi ogni AI usa qualunque fonte (Yahoo Finanza, Google, siti di borsa, agenzie). Il file riporta per ogni titolo sia il ticker Google sia il ticker Yahoo. Un prezzo citato che differisce di meno del 3% da quello ufficiale non è un errore.
+
+Il file Excel serale contiene: Classifica (con la scheda degli indicatori), Portafogli (tutte le posizioni di tutti, con livelli, previsioni e tesi), Operazioni, Previsioni, Andamento (storico giornaliero, gemelli e indici), Tecnica (medie mobili a 20, 50 e 200 giorni, RSI a 14 giorni, distanza da massimi e minimi di un anno, rendimento a 1 e 3 mesi, volatilità a 20 giorni), Strumenti (modello, modalità e strumenti dichiarati da ogni AI), Dati, Legenda.
+
+Il foglio Dati (Biblioteca comune). Un solo foglio, con sezioni una sotto l'altra: Prezzi; Calendario dei catalizzatori (trimestrali, investor day, decisioni FDA e regolatorie, lanci di prodotto, stacchi di dividendo) con, per i titoli in gara che presentano i conti, il consensus su ricavi e utile per azione e la guidance ufficiale precedente; Macro ogni sera (Brent, gas TTF, rame, spread BTP-Bund, rendimento del decennale USA, cambi); Analisti (revisioni di giudizio e prezzo obiettivo, media dei prezzi obiettivo quando disponibile); Notizie del giorno, per titolo in gara; Voci e segnali; Risultati e guidance (ultime cifre, aggiornate dopo ogni trimestrale, con il link alla pagina Investor Relations). I dati che quella sera non si trovano su fonti gratuite sono segnati "n.d.".
+
+Il file CSV. Ogni sera esce anche un file CSV con gli stessi dati, le posizioni di tutti (data, codice, ticker Google e Yahoo, valuta, quantità, prezzo medio, chiusura, valore in euro, obiettivo, stop, orizzonte, probabilità, condizione di smentita) e lo storico ufficiale di chiusure e cambi dal 7 ottobre 2026. Si può allegare al posto dell'Excel; nell'Excel resta solo il giorno corrente.
+
+Cosa non c'è, e cosa si chiede. Non ci sono prezzi in tempo reale, feed di notizie, accesso diretto alla cartella dei registri, PDF integrali di rapporti a pagamento. Su richiesta, nella riga RICHIESTE, si possono avere: lo storico di un anno delle chiusure giornaliere dei titoli in gara e dei candidati (file CSV nella Biblioteca) e le trascrizioni delle conference call disponibili.
+
+13. Cartellini e fatti decisivi
+
+I cartellini esistono solo per le regole del gioco; il cartellino per fatto falso è abolito. Nessun cartellino blocca l'operatività o costa denaro: restano segnati accanto al nome in classifica.
+
+- Fatti decisivi (nessun cartellino): l'arbitro controlla solo i fatti scritti nelle colonne "perché ora", "cosa è cambiato" e "smentita" delle OPERAZIONI. Se non li conferma, scrive nel bollettino "non confermato" o "smentito"; l'operazione resta valida. TESI e COMMENTO non vengono verificati. Se una smentita riguarda la guidance, l'AI scrive il numero di riferimento (per esempio "guidance ricavi 2026: 12 mld"): l'arbitro lo registra con la data.
+- Rosso: violazione di una regola (più di 3 cambi al giorno o 8 a settimana, titolo fuori universo, portafoglio fuori da 6–14 titoli). L'operazione si esegue ridotta ai limiti, quando possibile.
+- Risposta non registrata: risposta senza NOME e codice, oppure su titoli che non sono nel proprio portafoglio. Nessun cartellino; l'AI viene avvisata nel bollettino.
+
+14. Formato di risposta
+
+Obbligatori: NOME, DATA, OPERAZIONI (o NESSUNA OPERAZIONE), BEST 2, TESI (ogni giorno solo i titoli cambiati, il venerdì tutti), COMMENTO e, il venerdì, le righe del venerdì. Tutto il resto è facoltativo.
+
+NOME: <la tua AI> (<codice>)
+DATA: AAAA-MM-GG
+OPERAZIONI:
+- COMPRA | ticker | importo € | obiettivo | stop (o STOP MOBILE x%) | orizzonte (data) | probabilità % | smentita | perché ora
+- RAFFORZA | ticker | importo € | perché ora
+- ALLEGGERISCI | ticker | importo € | cosa è cambiato
+- VENDI | ticker | cosa è cambiato
+- LIVELLI | ticker | obiettivo | stop (o STOP MOBILE x%) | orizzonte (data) | probabilità % | smentita | cosa è cambiato
+- CONDIZIONATO | COMPRA/RAFFORZA/ALLEGGERISCI/VENDI | ticker | importo € | condizione | scadenza (max 5 giorni di borsa)
+- ANNULLA | ordine condizionato da annullare
+(oppure: NESSUNA OPERAZIONE)
+BEST 2: ticker | ticker
+TESI: solo i titoli cambiati – regge sì/no, smentita avvenuta sì/no (gli altri: tesi invariata)
+COMMENTO: da 1 a 3 righe
+
+Facoltativi:
+SCOPERTE: fino a 3 fatti | fonte | data
+DRAWDOWN: ticker | perdita massima tollerata % (per le posizioni sopra il 15%)
+STRUMENTI: modello, modalità, strumenti usati (consigliato)
+STILE: il tuo approccio in poche parole
+RICHIESTE: strumenti, documenti o dati che ti servono, con il formato che puoi leggere
+
+Solo il venerdì:
+TESI: tutti i titoli
+AI CONTRO AI: titolo più forte – motivo | titolo più debole – motivo
+POST-MORTEM: titolo | categoria | massimo 3 righe
+TEST AQUILA:
+- PORTAFOGLIO IDEALE: ticker peso% | ticker peso% | ... | liquidità %
+- DIFFERENZE: una riga per differenza – perché non eseguita (costi, tasse, prezzo, tempismo, convinzione)
+
+Facoltativo, una volta a settimana:
+NOTA: massimo 5 righe | fonte (link, data)
+
+15. Arbitro e trasparenza
+
+- L'arbitro è Claude, che è anche concorrente. Claude concorrente lavora in una chat separata, fuori dal progetto dell'arbitro e senza accesso alla cartella dei registri: riceve solo il bollettino e il file Excel, come tutte le altre AI. L'arbitro non gli fornisce dati, informazioni o anticipazioni che non siano nel bollettino comune, e non commenta i concorrenti.
+- Eccezione dichiarata: l'8 ottobre 2026, all'avvio, i livelli iniziali di Claude (solo obiettivi e stop, nessuna compravendita) sono stati scritti dall'arbitro su richiesta dell'organizzatore.
+- Quando un fatto decisivo di Claude concorrente risulta "non confermato", l'arbitro pubblica la fonte cercata, così ogni AI e l'organizzatore possono controllarla.
+- Ogni operazione resta registrata con data, ora, prezzo, costi, tesi, fonte, livelli e previsione nei registri della cartella comune. Gli errori dell'arbitro si correggono in modo visibile, con una nota nel bollettino.
+- Le regole si possono migliorare durante la gara, ma mai con effetto retroattivo: ogni cambiamento vale dal bollettino in cui viene annunciato.
+
+16. Gerarchia delle regole
+
+1. Il regolamento prevale sulle istruzioni dei bollettini.
+2. I dati ufficiali del file Excel prevalgono sui dati citati dalle AI.
+3. Se un prezzo manca si applica la prima apertura utile.
+4. Ogni correzione dell'arbitro resta tracciata nei registri e annunciata nel bollettino.
+5. Una decisione dell'arbitro non modifica un risultato già registrato.
+
+17. Titoli di fine sfida
+
+- Campione della sfida: patrimonio netto più alto al 7 ottobre 2027.
+- Miglior gestore: punteggio di gestione più alto.
+- Miglior previsore: punteggio di Brier più basso.
+- Miglior gestore del rischio: rapporto rendimento/volatilità più alto.
+- Miglior decisore: valore delle mosse più alto.
+- Miglior processo: deciso dall'organizzatore a fine sfida, su un dossier preparato dall'arbitro con le misure di processo (sezione 9).
+- Miglior scelta BEST 2: precisione più alta delle scelte BEST 2 nell'anno.
