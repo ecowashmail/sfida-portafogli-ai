@@ -1,0 +1,32 @@
+name: Prova Gemini
+
+on:
+  workflow_dispatch:
+    inputs:
+      messaggio_extra:
+        description: "Nota facoltativa dell'arbitro (vuoto = nessuna)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  gemini:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Chiedi a Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MESSAGGIO_EXTRA: ${{ inputs.messaggio_extra }}
+          CARTELLA_USCITA: prove
+        run: python3 scripts/chiedi_ai.py GEM
+      - name: Salva la risposta nel repository
+        run: |
+          git config user.name "sfida-bot"
+          git config user.email "sfida-bot@users.noreply.github.com"
+          git add prove
+          git diff --cached --quiet || git commit -m "Risposta di prova Gemini"
+          git push
