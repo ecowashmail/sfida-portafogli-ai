@@ -55,6 +55,20 @@ def chiama(modello, chiave, istruzioni, testo):
     return risposta
 
 
+def modelli_disponibili(chiave):
+    """Elenco dei modelli 'flash' che supportano generateContent (per quando i nomi cambiano)."""
+    req = urllib.request.Request(
+        "https://generativelanguage.googleapis.com/v1beta/models?pageSize=200",
+        headers={"x-goog-api-key": chiave},
+    )
+    with urllib.request.urlopen(req, timeout=60) as r:
+        dati = json.loads(r.read().decode("utf-8"))
+    nomi = [m["name"].split("/", 1)[1] for m in dati.get("models", [])
+            if "generateContent" in m.get("supportedGenerationMethods", [])
+            and "flash" in m["name"] and not any(x in m["name"] for x in ("image", "tts", "live", "audio", "thinking-exp"))]
+    return sorted(nomi, key=lambda n: ("lite" in n, n))
+
+
 def controlla_formato(testo):
     problemi = [c for c in CAMPI_OBBLIGATORI if c not in testo]
     if "OPERAZIONI:" not in testo and "NESSUNA OPERAZIONE" not in testo:
@@ -71,7 +85,7 @@ def main():
     chiave = os.environ.get("GEMINI_API_KEY", "").strip()
     if not chiave:
         sys.exit("Manca il secret GEMINI_API_KEY")
-    modelli = [m.strip() for m in os.environ.get("GEMINI_MODELLI", "gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m.strip()]
+    modelli = [m.strip() for m in os.environ.get("GEMINI_MODELLI", "gemini-3.8-flash,gemini-3.5-flash-lite").split(",") if m.strip()]
     uscita = os.environ.get("CARTELLA_USCITA", "prove")
     extra = os.environ.get("MESSAGGIO_EXTRA", "").strip()
 
@@ -102,6 +116,20 @@ def main():
                 time.sleep(10)
         if risposta:
             break
+
+    if not risposta and any("HTTP 404" in e for e in errori):
+        try:
+            scoperti = [m for m in modelli_disponibili(chiave) if m not in modelli]
+            errori.append("Modelli flash disponibili: " + ", ".join(scoperti))
+            for modello in scoperti[:3]:
+                try:
+                    risposta = chiama(modello, chiave, istruzioni, testo)
+                    usato = modello
+                    break
+                except Exception as e:
+                    errori.append(f"{modello}: {str(e)[:200]}")
+        except Exception as e:
+            errori.append(f"elenco modelli non riuscito: {e}")
 
     adesso = datetime.datetime.now(datetime.timezone.utc)
     os.makedirs(os.path.join(RADICE, uscita), exist_ok=True)
