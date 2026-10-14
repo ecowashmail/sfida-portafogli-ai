@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Chiedi a Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -24,6 +24,7 @@ jobs:
           CARTELLA_USCITA: prove
         run: python3 scripts/chiedi_ai.py GEM
       - name: Salva la risposta nel repository
+        if: always()
         run: |
           git config user.name "sfida-bot"
           git config user.email "sfida-bot@users.noreply.github.com"
