@@ -72,7 +72,8 @@
       "preferisci": "opus",
       "modello": "",
       "ricerca": "web",
-      "attivo": true
+      "attivo": false,
+      "nota": "Dal 26/11 Claude risponde con un'attività pianificata di Claude (abbonamento dell'organizzatore, nessun costo API): scrive da sé in risposte/AAAA-MM-GG/risposta_CLA.txt"
     },
     {
       "cod": "GEM",
