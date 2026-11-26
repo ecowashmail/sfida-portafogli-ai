@@ -255,7 +255,7 @@ def messaggio_arbitro(cod, cartella_pacchetto):
 # ---------------------------------------------------------------- chiamate
 class ErroreAPI(Exception):
     def __init__(self, codice, testo):
-        super().__init__(f"HTTP {codice}: {testo[:400]}")
+        super().__init__(f"HTTP {codice}: {testo[:1500]}")
         self.codice = codice
 
 
@@ -322,17 +322,19 @@ def chiama_gemini_diretto(sistema, utente, storia=None):
                 elenco = json.loads(r.read().decode()).get("models", [])
             nomi = [m["name"].split("/")[-1] for m in elenco
                     if "generateContent" in m.get("supportedGenerationMethods", [])]
-            nomi = [n for n in nomi if n.startswith("gemini") and not _escluso(n, ["lite", "image", "tts", "embedding", "live", "audio", "exp"])]
+            nomi = [n for n in nomi if n.startswith("gemini") and not _escluso(n, ["image", "tts", "embedding", "live", "audio", "exp", "robotics", "computer"])]
+            flash = sorted([n for n in nomi if "flash" in n and "lite" not in n], reverse=True)
+            lite = sorted([n for n in nomi if "lite" in n], reverse=True)
             pro = sorted([n for n in nomi if "pro" in n], reverse=True)
-            flash = sorted([n for n in nomi if "flash" in n], reverse=True)
-            modelli = pro[:2] + flash[:2]
+            # il livello gratuito copre di solito i modelli flash: prima quelli, poi gli altri
+            modelli = flash[:2] + lite[:1] + pro[:2]
         except Exception as e:  # noqa: BLE001
             print("elenco modelli Gemini non disponibile:", e)
             modelli = ["gemini-3.8-flash", "gemini-3.5-flash-lite"]
     contenuti = [{"role": "user", "parts": [{"text": utente}]}]
     for s in storia or []:
         contenuti.append({"role": "model" if s["role"] == "assistant" else "user", "parts": [{"text": s["content"]}]})
-    ultimo = None
+    errori = []
     for m in modelli:
         for strumenti in ([{"google_search": {}}], None):
             corpo = {"systemInstruction": {"parts": [{"text": sistema}]}, "contents": contenuti}
@@ -347,11 +349,15 @@ def chiama_gemini_diretto(sistema, utente, storia=None):
                 if testo.strip():
                     return {"testo": testo, "modello": "google-diretto/" + m, "costo": 0.0, "token": (None, None),
                             "ricerca": "Google Search" if strumenti else "no", "secondi": round(time.time() - t0)}
-                ultimo = "risposta vuota"
+                errori.append(f"{m} ({'con' if strumenti else 'senza'} ricerca): risposta vuota")
             except Exception as e:  # noqa: BLE001
-                ultimo = e
-                print(f"  Gemini {m} ({'con' if strumenti else 'senza'} ricerca): {e}")
-    raise RuntimeError(f"Gemini diretto non ha risposto: {ultimo}")
+                breve = str(e).split("\n")[0][:60]
+                q = re.search(r"Quota exceeded for metric: ([^,]+), limit: (\d+)", str(e))
+                if q:
+                    breve += f" quota {q.group(1).split('/')[-1]} limite {q.group(2)}"
+                errori.append(f"{m} ({'con' if strumenti else 'senza'} ricerca): {breve}")
+                print("  Gemini", errori[-1])
+    raise RuntimeError("Gemini diretto non ha risposto. Tentativi: " + " | ".join(errori))
 
 
 # ---------------------------------------------------------------- comandi
