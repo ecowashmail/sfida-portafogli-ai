@@ -8,19 +8,259 @@
     "ragionamento": "high",
     "risposte_in_memoria": 2
   },
-  "escludi_sempre": ["mini", "nano", "lite", "small", "tiny", "free", "vision", "image", "audio", "tts", "embed", "guard", "coder", "codex", "oss", "distill", "deep-research", "realtime", "transcribe", "moderation", "ocr", "prover", "vl-", "-vl", "omni"],
+  "escludi_sempre": [
+    "mini",
+    "nano",
+    "lite",
+    "small",
+    "tiny",
+    "free",
+    "vision",
+    "image",
+    "audio",
+    "tts",
+    "embed",
+    "guard",
+    "coder",
+    "codex",
+    "oss",
+    "distill",
+    "deep-research",
+    "realtime",
+    "transcribe",
+    "moderation",
+    "ocr",
+    "prover",
+    "vl-",
+    "-vl",
+    "omni",
+    "safety"
+  ],
   "concorrenti": [
-    {"cod": "GPT", "nome": "ChatGPT", "autori": ["openai/"], "escludi": ["-pro", "chat", "turbo", "search", "o1", "o3", "o4", "gpt-4", "gpt-3"], "preferisci": "", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "CLA", "nome": "Claude", "autori": ["anthropic/"], "escludi": ["haiku", "claude-3"], "preferisci": "opus", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "GEM", "nome": "Gemini", "autori": ["google/gemini"], "escludi": ["flash", "gemma", "exp"], "preferisci": "", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "PPX", "nome": "Perplexity", "autori": ["perplexity/"], "escludi": ["r1-1776", "sonar-deep"], "preferisci": "sonar-reasoning-pro|sonar-pro", "modello": "", "ricerca": "nativa", "attivo": true},
-    {"cod": "GRK", "nome": "Grok", "autori": ["x-ai/", "spacexai/", "spacex-ai/"], "escludi": ["fast", "code", "grok-2", "grok-3"], "preferisci": "", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "DSK", "nome": "DeepSeek", "autori": ["deepseek/"], "escludi": ["chat-v3-0324", "r1-0528", "terminus-free"], "preferisci": "", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "CPL", "nome": "Copilot", "autori": ["microsoft/"], "escludi": ["phi", "wizard"], "preferisci": "mai", "autori_riserva": ["openai/"], "escludi_riserva": ["-pro", "chat", "turbo", "search", "o1", "o3", "o4", "gpt-4", "gpt-3"], "nota_riserva": "Copilot non ha un'API propria: se Microsoft non pubblica un suo modello su OpenRouter si usa il modello OpenAI su cui Copilot si basa", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "QWN", "nome": "Qwen", "autori": ["qwen/"], "escludi": ["turbo", "plus", "flash", "math", "qwq"], "preferisci": "max", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "KIM", "nome": "Kimi", "autori": ["moonshotai/"], "escludi": ["dev", "kimi-k2-0711"], "preferisci": "", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "MET", "nome": "Meta AI", "autori": ["meta/", "meta-llama/"], "escludi": ["8b", "3b", "1b", "11b", "scout", "llama-3"], "preferisci": "", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "MIS", "nome": "Mistral", "autori": ["mistralai/"], "escludi": ["ministral", "codestral", "devstral", "pixtral", "saba", "voxtral", "nemo", "mixtral", "mistral-7b"], "preferisci": "large|medium|magistral", "modello": "", "ricerca": "web", "attivo": true},
-    {"cod": "NEM", "nome": "Nemotron (fuori concorso)", "autori": ["nvidia/"], "escludi": ["cosmos", "parakeet", "llama-3.1-nemotron-70b"], "preferisci": "nemotron", "modello": "", "ricerca": "web", "attivo": true}
+    {
+      "cod": "GPT",
+      "nome": "ChatGPT",
+      "autori": [
+        "openai/"
+      ],
+      "escludi": [
+        "-pro",
+        "chat",
+        "turbo",
+        "search",
+        "o1",
+        "o3",
+        "o4",
+        "gpt-4",
+        "gpt-3"
+      ],
+      "preferisci": "",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "CLA",
+      "nome": "Claude",
+      "autori": [
+        "anthropic/"
+      ],
+      "escludi": [
+        "haiku",
+        "claude-3"
+      ],
+      "preferisci": "opus",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "GEM",
+      "nome": "Gemini",
+      "autori": [
+        "google/gemini"
+      ],
+      "escludi": [
+        "flash",
+        "gemma",
+        "exp"
+      ],
+      "preferisci": "",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "PPX",
+      "nome": "Perplexity",
+      "autori": [
+        "perplexity/"
+      ],
+      "escludi": [
+        "r1-1776",
+        "sonar-deep"
+      ],
+      "preferisci": "sonar-reasoning-pro|sonar-pro",
+      "modello": "",
+      "ricerca": "nativa",
+      "attivo": true
+    },
+    {
+      "cod": "GRK",
+      "nome": "Grok",
+      "autori": [
+        "x-ai/",
+        "spacexai/",
+        "spacex-ai/"
+      ],
+      "escludi": [
+        "fast",
+        "code",
+        "grok-2",
+        "grok-3"
+      ],
+      "preferisci": "",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "DSK",
+      "nome": "DeepSeek",
+      "autori": [
+        "deepseek/"
+      ],
+      "escludi": [
+        "chat-v3-0324",
+        "r1-0528",
+        "terminus-free"
+      ],
+      "preferisci": "deepseek/(?!.*flash)",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "CPL",
+      "nome": "Copilot",
+      "autori": [
+        "microsoft/"
+      ],
+      "escludi": [
+        "phi",
+        "wizard"
+      ],
+      "preferisci": "mai",
+      "autori_riserva": [
+        "openai/"
+      ],
+      "escludi_riserva": [
+        "-pro",
+        "chat",
+        "turbo",
+        "search",
+        "o1",
+        "o3",
+        "o4",
+        "gpt-4",
+        "gpt-3"
+      ],
+      "nota_riserva": "Copilot non ha un'API propria: se Microsoft non pubblica un suo modello su OpenRouter si usa il modello OpenAI su cui Copilot si basa",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "QWN",
+      "nome": "Qwen",
+      "autori": [
+        "qwen/"
+      ],
+      "escludi": [
+        "turbo",
+        "plus",
+        "flash",
+        "math",
+        "qwq"
+      ],
+      "preferisci": "max",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "KIM",
+      "nome": "Kimi",
+      "autori": [
+        "moonshotai/"
+      ],
+      "escludi": [
+        "dev",
+        "kimi-k2-0711"
+      ],
+      "preferisci": "",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "MET",
+      "nome": "Meta AI",
+      "autori": [
+        "meta/",
+        "meta-llama/"
+      ],
+      "escludi": [
+        "8b",
+        "3b",
+        "1b",
+        "11b",
+        "scout",
+        "llama-3"
+      ],
+      "preferisci": "",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "MIS",
+      "nome": "Mistral",
+      "autori": [
+        "mistralai/"
+      ],
+      "escludi": [
+        "ministral",
+        "codestral",
+        "devstral",
+        "pixtral",
+        "saba",
+        "voxtral",
+        "nemo",
+        "mixtral",
+        "mistral-7b"
+      ],
+      "preferisci": "large|medium|magistral",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    },
+    {
+      "cod": "NEM",
+      "nome": "Nemotron (fuori concorso)",
+      "autori": [
+        "nvidia/"
+      ],
+      "escludi": [
+        "cosmos",
+        "parakeet",
+        "llama-3.1-nemotron-70b",
+        "safety"
+      ],
+      "preferisci": "ultra|super",
+      "modello": "",
+      "ricerca": "web",
+      "attivo": true
+    }
   ]
 }

@@ -121,6 +121,8 @@ def candidati(c, cat, conf, autori=None):
         mid = m.get("id", "")
         if not any(mid.startswith(a) for a in (autori or c["autori"])):
             continue
+        if ":" in mid:  # varianti :batch (differite), :free, :online...
+            continue
         if _escluso(mid.split("/", 1)[-1], esc):
             continue
         arch = m.get("architecture", {}) or {}
@@ -164,6 +166,7 @@ def scegli_modelli(conf, cat):
         if lista:
             scelta[c["cod"]] = lista[0]["id"]
             note.setdefault(c["cod"], "automatico")
+            note[c["cod"]] += f" · prezzo {lista[0]['in']:.2f} / {lista[0]['out']:.2f} $ per milione di token (entrata/uscita)"
             note[c["cod"]] += " · alternative: " + ", ".join(x["id"] for x in lista[1:4])
         else:
             note[c["cod"]] = "nessun modello adatto trovato"
