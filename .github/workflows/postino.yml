@@ -1,0 +1,115 @@
+name: Postino
+
+# Consegna il Pacchetto della sera a tutte le AI e salva le risposte in risposte/AAAA-MM-GG/.
+# Parte da solo quando l'arbitro pubblica bollettini/ultimo/Pacchetto_AI.txt;
+# due controlli serali di riserva interrogano solo chi non ha ancora risposto.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'bollettini/ultimo/Pacchetto_AI.txt'
+      - 'prove/avvia.txt'
+  schedule:
+    - cron: '50 21 * * 1-5'   # 22:50 ora italiana (inverno) / 23:50 (estate)
+    - cron: '40 22 * * 1-5'   # 23:40 ora italiana (inverno) / 00:40 (estate)
+  workflow_dispatch:
+    inputs:
+      solo:
+        description: 'Codici da interrogare separati da virgola (vuoto = tutti quelli senza risposta)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postino
+  cancel-in-progress: false
+
+jobs:
+  prepara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      codici: ${{ steps.p.outputs.codici }}
+      modalita: ${{ steps.p.outputs.modalita }}
+      data: ${{ steps.p.outputs.data }}
+      giorno: ${{ steps.p.outputs.giorno }}
+      cartella: ${{ steps.p.outputs.cartella }}
+      pacchetto: ${{ steps.p.outputs.pacchetto }}
+      modelli: ${{ steps.p.outputs.modelli }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: p
+        name: Decide chi interrogare
+        env:
+          EVENTO: ${{ github.event_name }}
+          SOLO: ${{ inputs.solo }}
+          FILE_PROVA_CAMBIATO: ${{ contains(toJSON(github.event.commits), 'prove/avvia.txt') && '1' || '0' }}
+        run: python3 scripts/postino.py prepara
+      - name: Salva i modelli scelti
+        run: |
+          git config user.name "sfida-bot"
+          git config user.email "sfida-bot@users.noreply.github.com"
+          git add stato/ 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Postino: modelli scelti"
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((RANDOM % 10 + 5)); done
+
+  chiedi:
+    needs: prepara
+    if: needs.prepara.outputs.codici != '' && needs.prepara.outputs.codici != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        cod: ${{ fromJson(needs.prepara.outputs.codici) }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: Interroga ${{ matrix.cod }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PACCHETTO: ${{ needs.prepara.outputs.pacchetto }}
+          DATA: ${{ needs.prepara.outputs.data }}
+          GIORNO: ${{ needs.prepara.outputs.giorno }}
+          CARTELLA: ${{ needs.prepara.outputs.cartella }}
+          MODELLI: ${{ needs.prepara.outputs.modelli }}
+        run: python3 scripts/postino.py chiedi ${{ matrix.cod }}
+      - name: Pubblica la risposta
+        if: always()
+        env:
+          CARTELLA: ${{ needs.prepara.outputs.cartella }}
+        run: |
+          git config user.name "sfida-bot"
+          git config user.email "sfida-bot@users.noreply.github.com"
+          git add -A "$CARTELLA" 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Postino: ${{ matrix.cod }} – bollettino ${{ needs.prepara.outputs.data }}"
+          for i in 1 2 3 4 5 6 7 8; do git pull -q --rebase && git push -q && break; sleep $((RANDOM % 15 + 5)); done
+
+  raccogli:
+    needs: [prepara, chiedi]
+    if: always() && needs.prepara.outputs.codici != '' && needs.prepara.outputs.codici != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Riepilogo della serata
+        env:
+          CARTELLA: ${{ needs.prepara.outputs.cartella }}
+          DATA: ${{ needs.prepara.outputs.data }}
+          MODALITA: ${{ needs.prepara.outputs.modalita }}
+        run: |
+          git pull -q --rebase || true
+          python3 scripts/postino.py raccogli
+      - name: Pubblica lo stato
+        run: |
+          git config user.name "sfida-bot"
+          git config user.email "sfida-bot@users.noreply.github.com"
+          git add stato/
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Postino: stato della serata"
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((RANDOM % 10 + 5)); done

@@ -1,0 +1,293 @@
+BOLLETTINO SFIDA PORTAFOGLI AI – 25/11/2026 – giorno 36. Questo è un file unico: contiene bollettino, dossier e tutti i dati della sera (portafogli, condizionati, Tecnica). Non servono altri allegati.
+
+FORMATO DI CONSEGNA (OBBLIGATORIO): crea un FILE DI TESTO SCARICABILE chiamato risposta_SIGLA_2026-11-26.txt (es. risposta_GPT_2026-11-26.txt) con tutta la risposta nel formato richiesto, senza link e senza formule. Non scrivere la risposta solo nel testo della chat: l'organizzatore scarica il file. Se la tua piattaforma non può creare file, metti tutta la risposta in UN SOLO blocco di codice, pronto da copiare, con in cima la riga "FILE NON DISPONIBILE".
+
+MANDATO DI GESTIONE – Gestisci soldi virtuali in un ambiente chiuso: l'unico obiettivo è il patrimonio più alto al 7/10/2027. Non stai consigliando un risparmiatore: sei un gestore che gioca per vincere. Il rischio è ammesso e misurato, non punito. Le scelte di consenso danno risultati di consenso: per battere l'MSCI World e gli altri dieci servono idee diverse, ma la diversità è un mezzo, non un fine; conta il rendimento atteso netto. Concentrare il 20–30% su un'idea ad alta convinzione è legittimo; se un'idea forte non c'è, non forzarla. Se aspetti un dato, puoi lasciare un ordine condizionato.
+
+CLASSIFICA AL 25/11/2026 (patrimonio netto dal 7/10/2026, su 10.000 €, tasse latenti incluse)
+ 1. Altroconsumo Investi (INV)  10.314 €  +3,14%  (vs MSCI World +7,97 punti)
+ 2. Gemini (GEM)                 9.936 €  −0,64%  (vs MSCI World +4,19 punti)
+ 3. ChatGPT (GPT)                9.873 €  −1,27%  (vs MSCI World +3,56 punti)
+ 4. Qwen (QWN)                   9.705 €  −2,95%  (vs MSCI World +1,88 punti)
+ 5. Perplexity (PPX)             9.613 €  −3,87%  (vs MSCI World +0,96 punti)
+ 6. DeepSeek (DSK)               9.526 €  −4,74%  (vs MSCI World +0,10 punti)
+ 7. Meta AI (MET)                9.332 €  −6,68%  (vs MSCI World −1,85 punti)
+ 8. Kimi (KIM)                   9.060 €  −9,40%  (vs MSCI World −4,57 punti)
+ 9. Mistral (MIS)                8.861 €  −11,39%  (vs MSCI World −6,56 punti)
+10. Copilot (CPL)                8.810 €  −11,90%  (vs MSCI World −7,07 punti)
+11. Grok (GRK)                   8.765 €  −12,35%  (vs MSCI World −7,52 punti)
+12. Claude (CLA)                 7.995 €  −20,05%  (vs MSCI World −15,22 punti)
+Riferimenti: MSCI World −4,83% · Stoxx 600 −1,49%
+FUORI CONCORSO – Nemotron (NEM): patrimonio netto 9254,62 € (rendimento dal 12/10: −7,45%); stesso periodo: media delle 11 AI −7,86%, MSCI World −5,06%
+VALORE DELLE MOSSE (reale − gemello immobile "Colomba"): GPT −115,68 € · CLA −236,78 € · GEM +91,01 € · PPX −73,47 € · GRK +524,61 € · DSK +168,86 € · CPL +333,75 € · QWN +77,87 € · KIM −124,93 € · MET −248,83 € · MIS −237,24 € · NEM −90,01 €
+Giornata: vigilia del Ringraziamento con nuove vendite sull'IA; l'indice dei prezzi PCE (l'inflazione preferita dalla Fed) sale; Dow in recupero fino a chiudere positivo, S&P 500 e Nasdaq in calo (Yahoo Finance, Fox Business). NVIDIA −3,9%, Micron −4,6%, TSMC −2,1%, Lam Research −5,7%, Broadcom −0,1%, GE Vernova −0,7%, Quanta −4,1%, Microsoft −1,2%, Meta +3,4%, Alphabet −2,1%, Amazon −3,1%. Europa: ASML −5,8%, Infineon −6,5%, Prysmian −5,4%, Schneider −4,2%, UniCredit −3,3%, Intesa −3,3%; Sanofi di nuovo su (+4,9%). Stoxx 600 −1,06%, URTH −0,01%.
+
+BEST 2 – scelte valide (nessuna risposta ricevuta dal 12/11: restano le ultime dichiarate): GPT NASDAQ:MSFT | ETR:SAP · CLA NYSE:TSM | NYSE:GEV · GEM CPH:NOVO-B | LON:SHEL · PPX NASDAQ:MSFT | BME:IBE · GRK NYSE:TSM | BIT:LDO · DSK BIT:ENI | NYSE:KO · CPL NYSE:LLY | NYSE:GEV · QWN EPA:AI | NYSE:LLY · KIM NYSE:TSM | EPA:GOLD · MET NYSE:TSM | NYSE:LLY · MIS NASDAQ:MSFT | NYSE:SHEL · NEM NASDAQ:MSFT | EPA:TTE.
+Ombre BEST 2 (base 10.000 €) – oggi puro / con costi · valore con costi: GPT −0,76% / −0,76% · 8.179 € · CLA −1,46% / −1,46% · 6.996 € · GEM −0,04% / −0,04% · 9.904 € · PPX −0,94% / −0,94% · 9.064 € · GRK −1,23% / −1,23% · 7.560 € · DSK −0,21% / −0,21% · 9.548 € · CPL −1,04% / −1,04% · 8.457 € · QWN −0,51% / −0,51% · 9.802 € · KIM −2,55% / −2,55% · 8.288 € · MET −1,60% / −1,60% · 9.568 € · MIS −0,31% / −0,31% · 8.518 € · NEM −0,93% / −0,93% · 8.753 €. Rendimento a 1 settimana: venerdì.
+Portafoglio BEST collettivo delle AI (pesi: NYSE:TSM 4/22, NASDAQ:MSFT 3/22, NYSE:LLY 3/22, NYSE:GEV 2/22; gli altri 1/22), ribilanciato all'apertura: oggi −0,90% puro / −1,51% con costi; valore 9.098 € puro / 7.594 € con costi.
+
+ORDINI CONDIZIONATI
+ATTIVI: nessuno. Scattati, scaduti o non verificabili oggi: nessuno.
+
+RASSEGNA (25/11/2026)
+1. Il Dow cancella le perdite e chiude positivo, S&P 500 e Nasdaq recuperano terreno tra le vendite sull'IA; dato PCE – Yahoo Finance, 25/11: https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html
+2. Dow in positivo, S&P 500 e Nasdaq trascinati giù dai titoli dell'IA – Fox Business, 25/11: https://www.foxbusiness.com/markets/stocks-11-25-2026
+3. Borse in calo: inflazione e perdite di NVIDIA alimentano le vendite – UPI, 25/11: https://www.upi.com/Top_News/US/2026/11/25/nasdaq-AI-thanksgiving/8261795629057
+4. Notizie di Borsa del 25/11 (diretta) – CNBC, 25/11: https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html
+5. Le vendite sulla tecnologia si allargano prima del Ringraziamento; Dell scende nonostante conti migliori delle attese – StockInvest.us (fonte unica), 25/11: https://stockinvest.us/digest/digest-digest-us-premarket-2026-11-25
+6. Chip di nuovo sotto pressione e Wall Street verso il Ringraziamento con l'ipotesi di un rialzo dei tassi – Options Oracle (newsletter, opinione), 25/11: https://optionsoracle.substack.com/p/chips-get-carved-again-nasdaq-futures
+Fonti: stampa finanziaria USA (testate di orientamento diverso), un'agenzia, un sito di analisi e una newsletter d'opinione. Causa specifica del rialzo di Sanofi: n.d. Brent di oggi: n.d. (nessuna chiusura ufficiale trovata).
+
+OPERAZIONI DI OGGI
+Nessuna risposta ricevuta al bollettino del 24/11 (nessuna operazione decisa dalle AI, nessun cartellino). Nemotron (fuori concorso): nessuna risposta.
+- QWN VENDI BIT:ISP (vendita automatica da stop della chiusura del 24/11, non conta come cambio): 155,0388 az. a 5,6686 € (apertura 5,68 − scarto 0,20%); incasso netto 875,91 € (costi 2,95 €); minusvalenza 124,09 € a credito.
+Dividendo incassato: Equinor PPX 3,15 € · DSK 5,22 € · CPL 5,22 € (operazioni DIVIDENDO, non contano come cambio).
+STOP TOCCATI STASERA: PPX EPA:SU chiusura 216,65 ≤ stop 219,30 → VENDITA AUTOMATICA tutta all'apertura di giovedì 26/11 (non conta come cambio) · QWN EPA:SU chiusura 216,65 ≤ stop 219,80 → VENDITA AUTOMATICA tutta all'apertura di giovedì 26/11 (non conta come cambio) · NEM BIT:ISP chiusura 5,50 ≤ stop 5,50 → VENDITA AUTOMATICA tutta all'apertura di giovedì 26/11 (non conta come cambio). NEM ISP: chiusura uguale allo stop (5,50) = stop toccato. Dopo le vendite QWN avrà 3 titoli, PPX 7, NEM 5 (sotto 6 per vendita automatica: nessuna violazione).
+OBIETTIVI RAGGIUNTI STASERA: nessuno. Ancora senza obiettivo attivo: GRK SWX:ZURN (chiusura 637,40 CHF, stop 585: vendi o dichiara nuovi livelli).
+Stop mobile: GPT NASDAQ:MSFT massimo 523,88 $, stop 471,49 $ (chiusura 489,93 $).
+Vicini allo stop (entro 5%): GPT NASDAQ:MSFT 489,93 vs 471,49 (−3,8%) · GEM NASDAQ:MSFT 489,93 vs 480,00 (−2,0%) · DSK NYSE:EQNR 38,71 vs 37,00 (−4,4%) · DSK BIT:ENI 23,74 vs 23,00 (−3,1%) · CPL NYSE:XOM 158,08 vs 155,00 (−1,9%) · MET BIT:ENI 23,74 vs 23,00 (−3,1%) · MIS BIT:ISP 5,50 vs 5,45 (−0,9%) · NEM NASDAQ:MSFT 489,93 vs 480,00 (−2,0%).
+Titoli in portafoglio: GPT 6 · CLA 3 · GEM 8 · PPX 8 · GRK 4 · DSK 8 · CPL 8 · QWN 4 · KIM 6 · MET 7 · MIS 7 · NEM 6. Liquidità alta: GPT 3.558 € · CLA 4.944 € · GRK 4.971 € · QWN 3.007 € · KIM 3.183 €.
+Cambi nella settimana 23–27/11: tutti a 0. Limite: 3 al giorno, 8 a settimana.
+DIVIDENDI – Prossimi stacchi: NextEra (GEM) 27/11 · Coca-Cola (INV, DSK) 1/12 · BlackRock (INV) 8/12 · Merck 15/12. Da incassare: Visa GPT/PPX (1/12), Diageo INV (3/12), XOM, LLY e MSFT (10/12).
+Biblioteca: nessun documento nuovo.
+Risposte alle RICHIESTE valide per tutti: TTF, spread BTP-Bund, rame LME: n.d. stasera · storico di un anno in CSV: non ancora pronto.
+Giovedì 26/11 Borsa USA chiusa (Ringraziamento): le operazioni sui titoli USA di questa risposta si eseguono all'apertura di venerdì 27/11 (seduta ridotta); quelle sui titoli europei all'apertura di giovedì 26/11.
+
+MODALITÀ FALCO – L'obiettivo è il patrimonio più alto a fine gara, non avere avuto ragione ieri. Non sei il custode del tuo portafoglio: sei il suo critico più severo. Analisi obbligatoria, decisione libera: stare fermi è valido, se viene dall'analisi e non dall'abitudine.
+1. Ricerca vera. Bollettino, Excel, Dati e dossier sono un punto di partenza, non la verità. Cerca da solo, soprattutto ciò che contraddice le tue tesi: siti investor relations, conference call, presentazioni agli investitori, revisioni degli analisti. Usa la modalità di ricerca e ragionamento più profonda che hai.
+2. Ogni titolo sotto processo. Per ogni posizione: lo comprerei oggi, a questo prezzo? Almeno una prova a favore e una contro. È una smentita o solo un movimento di prezzo? Non trovare notizie non vuol dire che la tesi sia confermata.
+3. Prezzo e tempo, non solo tesi. Usa il foglio Tecnica: un titolo ottimo può essere caro, uno mediocre a buon prezzo. Conta il rendimento atteso da oggi in avanti.
+4. Gli avversari sono informazioni, non segnali. Non comprare un titolo perché sale o perché è nel portafoglio del primo. Ricostruisci la sua tesi, verificala, criticala.
+5. Guarda fuori dal portafoglio: titoli, settori e temi che nessuno possiede ancora.
+6. Agisci quando conviene: cambia quando il vantaggio atteso supera costi e tasse del cambio.
+7. Sii proattivo: se ti mancano dati, strumenti o documenti, chiedili nella riga RICHIESTE.
+
+IL TUO COMPITO – Trova il tuo portafoglio nella sezione DATI DELLA SERA in fondo a questo file. Applica il Mandato e la Modalità Falco. Indica il tuo BEST 2. Scrivi la TESI solo per i titoli su cui è cambiato qualcosa. Decidi da solo, senza usare le risposte degli altri di oggi: le decisioni sono tue, l'organizzatore non sceglie per nessuna AI. Rispondi nel formato qui sotto.
+Le operazioni di questa risposta, se arrivano prima delle 9:00 di giovedì 26/11, si eseguono all'APERTURA di giovedì 26/11 (titoli europei) o di venerdì 27/11 (titoli USA: Borsa USA chiusa giovedì per il Ringraziamento).
+
+FORMATO DI RISPOSTA
+NOME: <la tua AI> (<codice>)
+DATA: AAAA-MM-GG
+OPERAZIONI:
+- COMPRA | ticker | importo € | obiettivo | stop (o STOP MOBILE x%) | orizzonte (data) | probabilità % | smentita | perché ora
+- RAFFORZA | ticker | importo € | perché ora
+- ALLEGGERISCI | ticker | importo € | cosa è cambiato
+- VENDI | ticker | cosa è cambiato
+- LIVELLI | ticker | obiettivo | stop (o STOP MOBILE x%) | orizzonte (data) | probabilità % | smentita | cosa è cambiato
+- CONDIZIONATO | COMPRA/RAFFORZA/ALLEGGERISCI/VENDI | ticker | importo € | condizione | scadenza (max 5 giorni di borsa)
+- ANNULLA | ordine condizionato da annullare
+(oppure: NESSUNA OPERAZIONE)
+BEST 2: ticker | ticker
+TESI: solo i titoli cambiati – regge sì/no, smentita avvenuta sì/no (gli altri: tesi invariata)
+COMMENTO: da 1 a 3 righe
+
+Facoltativi:
+SCOPERTE: fino a 3 fatti | fonte | data
+DRAWDOWN: ticker | perdita massima tollerata % (per le posizioni sopra il 15%)
+STRUMENTI: modello, modalità, strumenti usati (consigliato)
+STILE: il tuo approccio in poche parole
+RICHIESTE: strumenti, documenti o dati che ti servono, con il formato che puoi leggere
+
+Solo il venerdì sera (risposta al bollettino del venerdì):
+TESI: tutti i titoli
+AI CONTRO AI: titolo più forte – motivo | titolo più debole – motivo
+POST-MORTEM: titolo | categoria | massimo 3 righe
+TEST AQUILA:
+- PORTAFOGLIO IDEALE: ticker peso% | ticker peso% | ... | liquidità %
+- DIFFERENZE: una riga per differenza – perché non eseguita (costi, tasse, prezzo, tempismo, convinzione)
+
+Facoltativo, una volta a settimana:
+NOTA: massimo 5 righe | fonte (link, data)
+
+DOSSIER
+Questo dossier è materiale di partenza, non verità: prima di una decisione importante conviene verificare il dato su una fonte primaria.
+SCOPERTE delle AI arrivate con le risposte di oggi: nessuna (nessuna risposta ricevuta).
+EVENTI DI DOMANI (giovedì 26/11): Borsa USA chiusa (Ringraziamento); vendite automatiche da stop all'apertura europea: PPX e QWN EPA:SU, NEM BIT:ISP. Venerdì 27/11: seduta USA ridotta, stacco NextEra (GEM). Consensus degli utili: n.d. stasera.
+SETTORI: nuove vendite sui titoli legati all'IA (chip, memorie, apparecchiature) negli USA e in Europa; inflazione PCE in salita (fonte: Yahoo Finance, UPI 25/11).
+MACRO DELLA SERA: Brent n.d. (nessuna chiusura ufficiale trovata) · decennale USA 4,848% (CBOE TNX) · oro: ETC EPA:GOLD 124,95 € (−3,0%) · rame: n.d. · TTF: n.d. · spread BTP-Bund: n.d. · cambi: USD/EUR 0,9111, GBP/EUR 1,1952, CHF/EUR 1,0965, NOK/EUR 0,09302 · Stoxx 600 626,03 · URTH 194,55 $ · IWDA 122,34 €.
+NOTIZIE PER TITOLO (24 ore): titoli in gara più mossi oggi – in rialzo: NYSE:SLB +3,3%, NYSE:LNG +2,0%, NYSE:V +1,8%, NYSE:LHX +1,5%, AMS:AD +1,1%, BIT:SRG +1,0%, NYSE:NEE +0,9%, NYSE:SHEL +0,7% · in calo: NASDAQ:MU −4,6%, EPA:SU −4,2%, ELI:BCP −3,8%, BIT:ISP −3,3%, BIT:UCG −3,3%, NASDAQ:AMZN −3,1%. ANALISTI: revisioni n.d. stasera.
+BIBLIOTECA: nessun documento nuovo (elenco invariato: trascrizioni e sintesi delle call ASML e TSMC).
+
+DATI DELLA SERA (chiusure del 25/11/2026; cambi: USD/EUR 0.911091168, GBP/EUR 1.19517, CHF/EUR 1.096455, DKK/EUR 0.1338034, NOK/EUR 0.09301902)
+Formato riga: ticker | quantità | prezzo medio di carico | chiusura | valore € | obiettivo | stop | orizzonte | probabilità % | note
+== INV – patrimonio netto 35067,50 € (su base 10.000: 10313,97 €)
+AMS:ASML | 0,6143 | 1627,80 | 1131,60 | 695,17 | - | 1220,85 | - | - | 
+EBR:MELE | 14,5349 | 68,80 | 51,60 | 750,00 | - | 51,60 | - | - | 
+EPA:MC | 2,6086 | 383,35 | 391,00 | 1019,96 | - | 287,51 | - | - | 
+EPA:AI | 5,9172 | 169,00 | 188,46 | 1115,15 | - | 126,75 | - | - | 
+AMS:AD | 31,8471 | 31,40 | 35,73 | 1137,90 | - | 23,55 | - | - | 
+BIT:A2A | 444,4444 | 2,25 | 2,21 | 982,22 | - | 1,69 | - | - | 
+ELI:EDP | 207,4689 | 4,82 | 4,87 | 1010,37 | - | 3,62 | - | - | 
+BIT:IRE | 414,9378 | 2,41 | 2,30 | 954,36 | - | 1,81 | - | - | 
+ETR:DHL | 17,9211 | 55,80 | 56,06 | 1004,66 | - | 41,85 | - | - | 
+LON:MNDI | 107,2273 | 789,00 | 774,40 | 992,43 | - | 591,75 | - | - | 
+BIT:PRY | 7,7821 | 128,50 | 93,12 | 724,67 | - | 96,38 | - | - | 
+EPA:VK | 54,8546 | 18,23 | 14,55 | 798,13 | - | 13,67 | - | - | 
+SWX:ALC | 17,7312 | 52,60 | 63,86 | 1241,53 | - | 39,45 | - | - | 
+LON:AZN | 7,1023 | 11912,00 | 13926,00 | 1182,10 | - | 8934,00 | - | - | 
+EPA:SAN | 14,1483 | 70,68 | 98,16 | 1388,79 | - | 53,01 | - | - | 
+EBR:AGS | 13,6986 | 73,00 | 75,05 | 1028,08 | - | 54,75 | - | - | 
+EPA:CS | 23,5183 | 42,52 | 44,88 | 1055,50 | - | 31,89 | - | - | 
+SWX:ZURN | 1,6181 | 576,40 | 637,40 | 1130,85 | - | 432,30 | - | - | 
+LON:DGE | 53,1088 | 1593,00 | 1932,00 | 1226,32 | - | 1194,75 | - | - | 
+EPA:HO | 4,5147 | 221,50 | 227,60 | 1027,54 | - | 166,12 | - | - | 
+SWX:RO | 2,5907 | 360,00 | 411,00 | 1167,49 | - | 270,00 | - | - | 
+NYSE:KO | 12,9046 | 86,73 | 97,59 | 1147,40 | - | 65,05 | - | - | 
+NYSE:ACN | 5,7229 | 195,57 | 240,49 | 1253,93 | - | 146,68 | - | - | 
+NASDAQ:MSFT | 2,1088 | 530,73 | 489,93 | 941,32 | - | 398,05 | - | - | 
+NASDAQ:NXPI | 4,6939 | 238,44 | 242,96 | 1039,04 | - | 178,83 | - | - | 
+NASDAQ:AMZN | 4,4024 | 254,23 | 244,43 | 980,40 | - | 190,67 | - | - | 
+NYSE:AIT | 3,2840 | 340,81 | 285,30 | 853,62 | - | 255,61 | - | - | 
+NYSE:WCN | 7,2026 | 155,39 | 187,27 | 1228,92 | - | 116,54 | - | - | 
+NASDAQ:GOOGL | 3,2290 | 346,61 | 273,10 | 803,45 | - | 259,96 | - | - | 
+NYSE:DIS | 10,8158 | 103,48 | 125,60 | 1237,69 | - | 77,61 | - | - | 
+NYSE:MDT | 12,8057 | 87,40 | 96,06 | 1120,75 | - | 65,55 | - | - | 
+NASDAQ:PCAR | 10,3078 | 108,58 | 107,95 | 1013,79 | - | 81,44 | - | - | 
+NYSE:AXP | 3,7192 | 300,93 | 312,39 | 1058,54 | - | 225,70 | - | - | 
+NYSE:BLK | 1,0489 | 1067,02 | 1141,86 | 1091,23 | - | 800,26 | - | - | 
+liquidità 17,36 € · dividendi da incassare 11,69 €
+== GPT – patrimonio netto 9873,11 €
+EPA:AIR | 5,3746 | 186,06 | 190,00 | 1021,18 | 213,97 | 163,73 | 2027-10-07 | 50 | 
+NYSE:V | 3,0272 | 369,72 | 424,39 | 1170,49 | 480,00 | 395,00 | 2027-10-07 | 60 | 
+NYSE:JPM | 3,4158 | 327,66 | 316,74 | 985,73 | 376,81 | 288,34 | 2027-10-07 | 55 | 
+NYSE:LLY | 0,9546 | 1172,39 | 1392,22 | 1210,91 | 1600,00 | 1300,00 | 2027-10-07 | 58 | 
+NYSE:XOM | 6,7586 | 165,60 | 158,08 | 973,41 | 190,44 | 145,73 | 2027-10-07 | 45 | 
+NASDAQ:MSFT | 2,1193 | 524,79 | 489,93 | 946,00 | 640,00 | 471,49 | 2027-10-07 | 52 | stop mobile 10% (massimo 523.88)
+liquidità 3557,80 € · dividendi da incassare 7,60 €
+== CLA – patrimonio netto 7995,42 €
+NYSE:GEV | 1,8097 | 931,33 | 715,00 | 1178,90 | 1000,00 | 640,00 | 2027-04-09 | 33 | drawdown tollerato 25%
+ELI:BCP | 847,4576 | 1,18 | 1,02 | 864,41 | 1,45 | 0,94 | 2027-04-09 | 20 | 
+NYSE:MRK | 7,8896 | 141,86 | 140,29 | 1008,43 | 170,00 | 113,00 | 2027-04-09 | 25 | 
+liquidità 4943,69 € · dividendi da incassare 0,00 €
+== GEM – patrimonio netto 9935,87 €
+LON:SHEL | 16,3842 | 3657,00 | 3555,50 | 696,23 | 4300,00 | 3250,00 | 2027-01-31 | 65 | 
+NYSE:NEE | 14,3196 | 78,16 | 85,41 | 1114,30 | 92,00 | 70,00 | 2027-04-30 | 80 | 
+NYSE:LHX | 4,7191 | 237,17 | 261,89 | 1125,99 | 280,00 | 210,00 | 2027-06-30 | 85 | 
+CPH:NOVO-B | 30,1099 | 248,25 | 274,30 | 1105,10 | 295,00 | 220,00 | 2027-04-30 | 75 | 
+ETR:EOAN | 58,4454 | 17,11 | 18,61 | 1087,67 | 20,00 | 15,00 | 2027-06-30 | 85 | 
+NASDAQ:VRTX | 2,2194 | 504,30 | 564,12 | 1140,67 | 580,00 | 450,00 | 2027-05-31 | 80 | 
+NASDAQ:MSFT | 2,1173 | 531,11 | 489,93 | 945,08 | 640,00 | 480,00 | 2027-04-09 | 55 | vicino allo stop (entro 3%)
+NYSE:XOM | 6,1401 | 183,14 | 158,08 | 884,33 | 200,00 | 138,00 | 2027-04-09 | 55 | 
+liquidità 1831,55 € · dividendi da incassare 4,95 €
+== PPX – patrimonio netto 9613,35 €
+NASDAQ:MSFT | 3,5224 | 542,34 | 489,93 | 1572,28 | 663,40 | 451,10 | 2027-10-07 | 48 | drawdown tollerato 20%
+EPA:SU | 3,5740 | 256,04 | 216,65 | 774,30 | 322,60 | 219,30 | 2027-10-07 | 42 | drawdown tollerato 15%; STOP TOCCATO: vendita automatica all'apertura di giovedì 26/11
+BME:IBE | 65,8581 | 21,31 | 22,72 | 1496,30 | 25,20 | 17,85 | 2027-10-07 | 58 | drawdown tollerato 15%
+NYSE:EQNR | 15,8617 | 42,60 | 38,71 | 559,42 | 51,10 | 34,08 | 2027-04-30 | 55 | 
+EPA:HO | 4,5147 | 221,50 | 227,60 | 1027,54 | 276,90 | 188,20 | 2027-10-07 | 55 | 
+NYSE:V | 3,0272 | 369,72 | 424,39 | 1170,49 | 462,20 | 314,20 | 2027-10-07 | 60 | drawdown tollerato 15%
+NYSE:MRK | 4,8147 | 141,86 | 140,29 | 615,40 | 177,30 | 120,50 | 2027-04-09 | 30 | 
+AMS:AD | 20,2061 | 31,40 | 35,73 | 721,96 | 37,70 | 26,69 | 2027-10-07 | 48 | 
+liquidità 1672,35 € · dividendi da incassare 3,31 €
+== GRK – patrimonio netto 8764,99 €
+BME:REP | 34,6141 | 28,89 | 27,34 | 946,35 | 35,00 | 26,00 | 2027-02-28 | 48 | 
+NYSE:MRK | 7,8896 | 141,86 | 140,29 | 1008,43 | 170,00 | 127,68 | 2027-04-30 | 45 | 
+SWX:ZURN | 1,6181 | 576,40 | 637,40 | 1130,85 | - | 585,00 | 2027-03-31 | 45 | senza obiettivo attivo
+BIT:LDO | 14,4608 | 48,66 | 48,96 | 708,00 | 62,00 | 42,00 | 2027-03-31 | 52 | 
+liquidità 4971,37 € · dividendi da incassare 0,00 €
+== DSK – patrimonio netto 9526,45 €
+BME:REP | 34,6141 | 28,89 | 27,34 | 946,35 | 34,00 | 26,00 | 2026-12-31 | 50 | 
+NYSE:MRK | 7,8896 | 141,86 | 140,29 | 1008,43 | 175,00 | 125,00 | 2027-03-31 | 50 | 
+NYSE:EQNR | 26,2728 | 42,60 | 38,71 | 926,60 | 52,00 | 37,00 | 2027-03-31 | 55 | 
+LON:AZN | 5,6818 | 11912,00 | 13926,00 | 945,68 | 15000,00 | 13000,00 | 2027-03-31 | 55 | 
+EPA:TTE | 15,8751 | 75,59 | 77,28 | 1226,83 | 90,00 | 67,00 | 2027-03-31 | 55 | 
+BIT:LDO | 16,0726 | 47,02 | 48,96 | 786,92 | 65,00 | 41,91 | 2026-12-31 | 55 | 
+BIT:ENI | 29,1587 | 25,85 | 23,74 | 692,23 | 32,00 | 23,00 | 2027-03-31 | 55 | 
+NYSE:KO | 21,3184 | 94,94 | 97,59 | 1895,49 | 110,00 | 85,00 | 2027-03-31 | 60 | 
+liquidità 1097,94 € · dividendi da incassare 0,00 €
+== CPL – patrimonio netto 8809,69 €
+NASDAQ:MSFT | 2,1088 | 530,73 | 489,93 | 941,32 | 650,00 | 450,00 | 2027-10-07 | 57 | 
+NYSE:EQNR | 26,2728 | 42,60 | 38,71 | 926,60 | 55,00 | 35,00 | 2027-10-07 | 49 | 
+BIT:UCG | 12,4626 | 80,24 | 73,21 | 912,39 | 100,00 | 65,00 | 2027-10-07 | 43 | 
+BME:REP | 34,6141 | 28,89 | 27,34 | 946,35 | 38,00 | 23,00 | 2027-10-07 | 50 | 
+NYSE:MRK | 7,8896 | 141,86 | 140,29 | 1008,43 | 175,00 | 120,00 | 2027-10-07 | 50 | 
+NYSE:LLY | 0,7086 | 1276,92 | 1392,22 | 898,85 | 1550,00 | 1200,00 | 2027-06-30 | 65 | drawdown tollerato 15%
+NYSE:XOM | 5,2511 | 183,25 | 158,08 | 756,29 | 205,00 | 155,00 | 2027-04-30 | 58 | vicino allo stop (entro 3%)
+NASDAQ:GOOGL | 3,0710 | 294,36 | 273,10 | 764,13 | 380,00 | 250,00 | 2027-06-30 | 56 | 
+liquidità 1650,25 € · dividendi da incassare 5,09 €
+== QWN – patrimonio netto 9705,10 €
+EPA:SU | 5,9120 | 254,56 | 216,65 | 1280,83 | 310,00 | 219,80 | 2027-10-08 | 65 | STOP TOCCATO: vendita automatica all'apertura di giovedì 26/11
+BME:IBE | 91,6389 | 21,88 | 22,72 | 2082,04 | 25,00 | 18,90 | - | - | 
+EPA:AI | 11,2684 | 178,10 | 188,46 | 2123,64 | 200,00 | 152,10 | - | - | 
+NYSE:LLY | 0,9546 | 1172,39 | 1392,22 | 1210,91 | 1600,00 | 1055,15 | 2027-03-31 | 60 | 
+liquidità 3006,74 € · dividendi da incassare 0,94 €
+== KIM – patrimonio netto 9060,03 €
+NASDAQ:MSFT | 2,1088 | 530,73 | 489,93 | 941,32 | 640,00 | 398,05 | 2027-03-31 | 55 | 
+EPA:SU | 7,7501 | 246,00 | 216,65 | 1679,06 | 320,00 | 193,54 | 2027-06-30 | 50 | drawdown tollerato 21%
+NYSE:SLB | 22,4247 | 49,91 | 48,52 | 991,31 | 62,00 | 37,43 | 2027-03-31 | 50 | 
+EPA:TTE | 6,8471 | 75,59 | 77,28 | 529,14 | 92,00 | 56,69 | 2027-03-31 | 55 | 
+BIT:ENI | 23,2755 | 24,10 | 23,74 | 552,56 | 32,00 | 21,69 | 2027-03-31 | 55 | 
+LON:AZN | 7,1023 | 11912,00 | 13926,00 | 1182,10 | 15200,00 | 10720,00 | 2027-06-30 | 55 | 
+liquidità 3183,35 € · dividendi da incassare 1,18 €
+== MET – patrimonio netto 9331,68 €
+EPA:TTE | 13,2293 | 75,59 | 77,28 | 1022,36 | 92,00 | 64,00 | 2027-02-07 | 65 | 
+NYSE:LNG | 8,6730 | 283,58 | 301,99 | 2386,30 | 350,00 | 215,00 | 2027-02-07 | 65 | drawdown tollerato 15%
+BIT:SRG | 179,8561 | 5,56 | 6,05 | 1088,13 | 6,50 | 4,80 | 2027-04-07 | 68 | 
+NYSE:LLY | 1,3090 | 1205,34 | 1392,22 | 1660,34 | 1450,00 | 940,00 | 2027-06-07 | 65 | 
+BIT:ENI | 29,0328 | 27,68 | 23,74 | 689,24 | 32,00 | 23,00 | 2027-04-07 | 60 | 
+NASDAQ:GOOGL | 1,9060 | 297,07 | 273,10 | 474,25 | 400,00 | 250,00 | 2027-04-07 | 55 | 
+NASDAQ:MU | 0,9427 | 715,02 | 601,25 | 516,41 | 1100,00 | 550,00 | 2027-04-07 | 50 | 
+liquidità 1493,36 € · dividendi da incassare 1,30 €
+== MIS – patrimonio netto 8860,75 €
+NASDAQ:MSFT | 2,1088 | 530,73 | 489,93 | 941,32 | 660,00 | 425,00 | 2027-04-09 | 55 | 
+NASDAQ:AMZN | 4,4024 | 254,23 | 244,43 | 980,40 | 310,00 | 215,00 | 2027-04-09 | 50 | 
+NYSE:SHEL | 15,8714 | 99,11 | 94,13 | 1361,15 | 130,00 | 85,00 | 2027-04-09 | 60 | 
+NYSE:XOM | 4,1330 | 165,60 | 158,08 | 595,26 | 200,00 | 138,00 | 2027-04-09 | 55 | 
+BIT:SPM | 358,4439 | 4,47 | 4,27 | 1530,56 | 6,00 | 3,30 | 2027-04-09 | 50 | drawdown tollerato 25%
+BIT:ISP | 221,4811 | 6,30 | 5,50 | 1218,15 | 8,00 | 5,45 | 2027-04-09 | 55 | vicino allo stop (entro 3%)
+NASDAQ:GOOGL | 2,7701 | 285,93 | 273,10 | 689,25 | 400,00 | 250,00 | 2027-04-09 | 50 | 
+liquidità 1540,95 € · dividendi da incassare 3,71 €
+== NEM – patrimonio netto 9254,62 €
+NASDAQ:MSFT | 3,2448 | 537,88 | 489,93 | 1448,40 | 640,00 | 480,00 | 2027-04-09 | 55 | vicino allo stop (entro 3%)
+EPA:TTE | 12,1864 | 78,68 | 77,28 | 941,77 | 94,00 | 70,00 | 2027-04-09 | 55 | 
+BIT:ISP | 153,4149 | 6,23 | 5,50 | 843,78 | 7,35 | 5,50 | 2027-04-09 | 55 | STOP TOCCATO: vendita automatica all'apertura di giovedì 26/11
+NYSE:LLY | 0,8985 | 1189,83 | 1392,22 | 1139,69 | - | 1273,50 | 2027-04-09 | 55 | senza obiettivo attivo
+CPH:NOVO-B | 27,5311 | 259,28 | 274,30 | 1010,46 | 306,00 | 229,00 | 2027-04-09 | 55 | 
+LON:SHEL | 21,2486 | 3818,10 | 3555,50 | 902,95 | 4500,00 | 3370,00 | 2027-04-09 | 55 | 
+liquidità 2964,87 € · dividendi da incassare 2,71 €
+
+TECNICA (titoli posseduti da AI e NEM; chiusura del 25/11 inclusa)
+ticker | SMA20 | SMA50 | SMA200 | max 1 anno | min 1 anno | rend. 21 | rend. 63 | volatilità 20 | RSI14 | ultimo giorno
+AMS:AD | 34,43 | 33,04 | 35,85 | 42,50 | 30,56 | 8,47% | 16,88% | 30,54% | 64,69 | 25/11
+BIT:ENI | 25,28 | 25,17 | 23,20 | 27,65 | 15,60 | -10,28% | 4,17% | 20,74% | 33,56 | 25/11
+BIT:ISP | 6,08 | 6,23 | 6,05 | 6,92 | 4,97 | -8,64% | -18,88% | 29,62% | 25,81 | 25/11
+BIT:LDO | 50,07 | 49,23 | 53,23 | 64,26 | 45,68 | -2,00% | -7,40% | 35,75% | 47,09 | 25/11
+BIT:SPM | 4,29 | 4,37 | 4,22 | 4,82 | 2,29 | -5,74% | -4,26% | 26,67% | 47,90 | 25/11
+BIT:SRG | 6,14 | 5,88 | 6,15 | 6,81 | 5,44 | -1,79% | 4,49% | 15,50% | 50,83 | 25/11
+BIT:UCG | 78,78 | 78,55 | 75,73 | 86,15 | 59,63 | -1,52% | -13,58% | 38,76% | 34,91 | 25/11
+BME:IBE | 22,76 | 21,75 | 20,56 | 23,70 | 17,71 | 3,41% | 12,03% | 16,64% | 55,55 | 25/11
+BME:REP | 29,44 | 29,53 | 24,94 | 31,54 | 15,34 | -4,00% | 2,78% | 41,48% | 37,83 | 25/11
+CPH:NOVO-B | 272,05 | 263,15 | 278,99 | 401,35 | 228,50 | 5,70% | -7,17% | 37,05% | 54,20 | 25/11
+ELI:BCP | 1,10 | 1,13 | 1,01 | 1,22 | 0,78 | -6,42% | -8,93% | 37,89% | 34,00 | 25/11
+EPA:AI | 188,04 | 177,24 | 168,83 | 193,32 | 141,53 | 8,04% | 10,99% | 15,72% | 62,05 | 25/11
+EPA:AIR | 199,19 | 194,86 | 188,49 | 220,20 | 159,18 | -1,42% | -6,43% | 35,30% | 41,35 | 25/11
+EPA:HO | 228,84 | 228,58 | 238,61 | 271,90 | 215,70 | -2,82% | -6,99% | 23,84% | 48,75 | 25/11
+EPA:SU | 235,52 | 255,61 | 267,78 | 311,00 | 216,65 | -10,73% | -28,20% | 39,14% | 33,25 | 25/11
+EPA:TTE | 80,55 | 79,77 | 75,77 | 85,43 | 53,38 | -6,89% | 3,50% | 20,11% | 38,33 | 25/11
+ETR:EOAN | 18,91 | 18,06 | 18,44 | 20,30 | 14,98 | 0,22% | 4,37% | 20,94% | 49,84 | 25/11
+LON:AZN | 13799,10 | 12953,20 | 13424,79 | 15542,00 | 11460,00 | 8,61% | 14,96% | 31,52% | 60,55 | 25/11
+LON:SHEL | 3716,97 | 3735,86 | 3365,57 | 4038,00 | 2562,00 | -9,47% | 7,38% | 19,80% | 33,83 | 25/11
+NASDAQ:AMZN | 257,19 | 255,12 | 245,78 | 284,02 | 198,79 | -3,43% | -4,62% | 46,78% | 41,95 | 25/11
+NASDAQ:GOOGL | 283,05 | 318,24 | 336,32 | 402,62 | 265,29 | -14,81% | -19,83% | 60,73% | 36,93 | 25/11
+NASDAQ:MSFT | 517,14 | 519,55 | 444,89 | 555,80 | 352,83 | -7,79% | -3,00% | 38,51% | 38,75 | 25/11
+NASDAQ:MU | 742,80 | 895,48 | 776,48 | 1213,56 | 224,53 | -35,26% | -35,72% | 133,81% | 35,68 | 25/11
+NASDAQ:VRTX | 542,96 | 525,11 | 486,15 | 564,12 | 423,24 | 8,27% | 3,03% | 36,27% | 62,23 | 25/11
+NYSE:EQNR | 42,07 | 43,35 | 38,96 | 48,82 | 22,41 | -17,74% | -6,84% | 42,39% | 33,55 | 25/11
+NYSE:GEV | 796,18 | 883,89 | 951,02 | 1174,86 | 572,56 | -20,12% | -25,04% | 76,51% | 37,25 | 25/11
+NYSE:JPM | 333,66 | 335,33 | 325,13 | 365,18 | 282,84 | -5,67% | -10,58% | 31,77% | 36,99 | 25/11
+NYSE:KO | 96,62 | 92,31 | 84,15 | 99,48 | 67,54 | 7,03% | 9,58% | 17,29% | 58,82 | 25/11
+NYSE:LHX | 265,93 | 252,29 | 297,19 | 378,48 | 233,63 | 0,96% | -0,03% | 44,25% | 51,80 | 25/11
+NYSE:LLY | 1399,66 | 1281,96 | 1123,08 | 1443,50 | 851,21 | 8,61% | 18,38% | 38,34% | 56,21 | 25/11
+NYSE:LNG | 300,51 | 287,94 | 264,24 | 330,32 | 188,83 | 0,75% | 7,55% | 50,74% | 54,88 | 25/11
+NYSE:MRK | 144,05 | 144,95 | 129,52 | 156,45 | 96,89 | -1,08% | -6,19% | 37,51% | 46,03 | 25/11
+NYSE:NEE | 85,21 | 81,17 | 87,19 | 97,88 | 75,49 | 3,63% | 2,32% | 22,55% | 58,02 | 25/11
+NYSE:SHEL | 98,78 | 99,49 | 90,33 | 108,69 | 70,31 | -10,16% | 3,78% | 22,78% | 35,39 | 25/11
+NYSE:SLB | 49,99 | 50,26 | 51,51 | 60,10 | 35,66 | -10,28% | -11,80% | 31,75% | 44,99 | 25/11
+NYSE:V | 419,09 | 397,21 | 350,49 | 436,57 | 295,52 | 5,61% | 11,78% | 30,09% | 59,09 | 25/11
+NYSE:XOM | 167,56 | 168,85 | 156,95 | 187,25 | 114,51 | -12,13% | 1,05% | 31,54% | 35,50 | 25/11
+SWX:ZURN | 637,52 | 610,97 | 583,79 | 658,60 | 529,60 | 3,47% | 7,34% | 16,26% | 55,91 | 25/11
+
+FORMATO DI CONSEGNA (OBBLIGATORIO): crea un FILE DI TESTO SCARICABILE chiamato risposta_SIGLA_2026-11-26.txt (es. risposta_GPT_2026-11-26.txt) con tutta la risposta nel formato richiesto, senza link e senza formule. Non scrivere la risposta solo nel testo della chat: l'organizzatore scarica il file. Se la tua piattaforma non può creare file, metti tutta la risposta in UN SOLO blocco di codice, pronto da copiare, con in cima la riga "FILE NON DISPONIBILE".
+Rispondi solo nel FORMATO DI RISPOSTA (vedi sopra); niente testo fuori dal file o dal blocco di codice.
+
+FINE MESSAGGIO PER TUTTE LE AI

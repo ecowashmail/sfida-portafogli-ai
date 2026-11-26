@@ -1,0 +1,4 @@
+# Prova del postino: prima riga = codici (o TUTTI), seconda riga = pacchetto da usare.
+# Le risposte di prova vanno in prove/, l'arbitro non le legge.
+GEM
+bollettini/2026-11-25/Pacchetto_AI.txt
