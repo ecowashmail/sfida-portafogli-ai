@@ -121,9 +121,12 @@ def candidati(c, cat, conf, autori=None):
         mid = m.get("id", "")
         if not any(mid.startswith(a) for a in (autori or c["autori"])):
             continue
-        if ":" in mid:  # varianti :batch (differite), :free, :online...
+        gratis = conf["limiti"].get("solo_gratis", False)
+        if gratis and not mid.endswith(":free"):
             continue
-        if _escluso(mid.split("/", 1)[-1], esc):
+        if not gratis and ":" in mid:  # varianti :batch (differite), :free, :online...
+            continue
+        if _escluso(mid.split("/", 1)[-1].replace(":free", ""), [e for e in esc if e != "free"]):
             continue
         arch = m.get("architecture", {}) or {}
         if "text" not in (arch.get("output_modalities") or ["text"]):
@@ -135,7 +138,7 @@ def candidati(c, cat, conf, autori=None):
             pin, pout = float(pr.get("prompt", 0)) * 1e6, float(pr.get("completion", 0)) * 1e6
         except (TypeError, ValueError):
             continue
-        if pin <= 0 and pout <= 0:  # varianti gratuite: limiti troppo stretti
+        if pin <= 0 and pout <= 0 and not gratis:  # varianti gratuite: solo in modalità gratuita
             continue
         if pin > lim["prezzo_max_input_per_milione"] or pout > lim["prezzo_max_output_per_milione"]:
             continue
@@ -426,7 +429,7 @@ def cmd_chiedi(cod):
     data_risposta = ora_roma().date().isoformat()
     nome_breve = c["nome"].split(" (")[0]
     sistema = ISTRUZIONI.format(nome=c["nome"], nome_breve=nome_breve, cod=cod, data_risposta=data_risposta,
-                                ricerca=RICERCA.get(c.get("ricerca", "web"), RICERCA["web"]),
+                                ricerca=RICERCA["no" if conf["limiti"].get("solo_gratis") else c.get("ricerca", "web")],
                                 regolamento=leggi(REGOLAMENTO).strip())
     sistema += memoria(cod, data) + messaggio_arbitro(cod, os.path.dirname(pacchetto))
 
@@ -442,7 +445,8 @@ def cmd_chiedi(cod):
     def una_chiamata(storia=None):
         if usa_or:
             try:
-                return chiama_openrouter(modelli[cod], sistema, testo_pacchetto, c.get("ricerca", "web"), conf, storia)
+                ric = "no" if conf["limiti"].get("solo_gratis") else c.get("ricerca", "web")
+                return chiama_openrouter(modelli[cod], sistema, testo_pacchetto, ric, conf, storia)
             except Exception as e:  # noqa: BLE001
                 if not usa_gem:
                     raise
