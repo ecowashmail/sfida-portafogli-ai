@@ -144,7 +144,10 @@ def candidati(c, cat, conf, autori=None):
     pref = c.get("preferisci")
     if pref and any(re.search(pref, x["id"]) for x in out):
         out = [x for x in out if re.search(pref, x["id"])]
-    out.sort(key=lambda x: (x["creato"], x["out"]), reverse=True)
+    # il modello di punta: tra quelli usciti negli ultimi 120 giorni (rispetto al più recente) il più caro, poi il più nuovo
+    if out:
+        recente = max(x["creato"] for x in out) - 120 * 86400
+        out.sort(key=lambda x: (x["creato"] >= recente, x["out"], x["creato"]), reverse=True)
     return out
 
 
