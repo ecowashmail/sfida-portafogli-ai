@@ -1,6 +1,6 @@
 # Modelli scelti dal postino
 
-Aggiornato: 26/11/2026 08:40 (ora italiana)
+Aggiornato: 26/11/2026 08:44 (ora italiana)
 
 | AI | modello | come |
 |---|---|---|
