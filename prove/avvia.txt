@@ -1,5 +1,5 @@
 # Prova del postino: prima riga = codici (o TUTTI), seconda riga = pacchetto da usare.
 # Le risposte di prova vanno in prove/, l'arbitro non le legge.
-# avvio prova: 2026-11-26T07:45:32Z (solo aggiornamento modelli)
+# avvio prova: 2026-11-26T07:46:10Z (solo aggiornamento modelli)
 NESSUNO
 bollettini/2026-11-25/Pacchetto_AI.txt
