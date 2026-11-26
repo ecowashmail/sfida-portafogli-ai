@@ -40,13 +40,23 @@ jobs:
       modelli: ${{ steps.p.outputs.modelli }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - id: p
         name: Decide chi interrogare
         env:
           EVENTO: ${{ github.event_name }}
           SOLO: ${{ inputs.solo }}
-          FILE_PROVA_CAMBIATO: ${{ contains(toJSON(github.event.commits), 'prove/avvia.txt') && '1' || '0' }}
-        run: python3 scripts/postino.py prepara
+          PRIMA: ${{ github.event.before }}
+        run: |
+          FILE_PROVA_CAMBIATO=0
+          if [ "$EVENTO" = "push" ]; then
+            CAMBIATI=$(git diff --name-only "$PRIMA" "$GITHUB_SHA" 2>/dev/null || git show --name-only --format= HEAD)
+            echo "File cambiati: $CAMBIATI"
+            echo "$CAMBIATI" | grep -qx 'prove/avvia.txt' && FILE_PROVA_CAMBIATO=1
+          fi
+          export FILE_PROVA_CAMBIATO
+          python3 scripts/postino.py prepara
       - name: Salva i modelli scelti
         run: |
           git config user.name "sfida-bot"
