@@ -1,12 +1,12 @@
 # Ultimo giro del postino (PROVA)
 
-Bollettino del **2026-11-25** · controllato il 26/11/2026 alle 08:39 (ora italiana) · cartella `prove/2026-11-25_0839`
+Bollettino del **2026-11-25** · controllato il 26/11/2026 alle 08:40 (ora italiana) · cartella `prove/2026-11-25_0840`
 
 | AI | esito | ricevuta | modello | operazioni | costo $ |
 |---|---|---|---|---|---|
 | GPT | – non interrogato | – | – | – | – |
 | CLA | – non interrogato | – | – | – | – |
-| GEM | ❌ | – | – | postino: nessuna risposta da GEM (google/gemini-4-neon) il 26/11/2026 08:39 errore: Gemini diretto non ha risposto: HTTP 429: { | – |
+| GEM | ✅ | 2026-11-26 08:40 | google-diretto/gemini-flash-lite-latest | nessuna operazione | 0.000 |
 | PPX | – non interrogato | – | – | – | – |
 | GRK | – non interrogato | – | – | – | – |
 | DSK | – non interrogato | – | – | – | – |
@@ -17,4 +17,4 @@ Bollettino del **2026-11-25** · controllato il 26/11/2026 alle 08:39 (ora itali
 | MIS | – non interrogato | – | – | – | – |
 | NEM | – non interrogato | – | – | – | – |
 
-Risposte arrivate: **0** su 12 · costo della serata: **0.00 $**
+Risposte arrivate: **1** su 12 · costo della serata: **0.00 $**
