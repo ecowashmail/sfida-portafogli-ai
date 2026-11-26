@@ -1,9 +1,9 @@
 {
   "_nota": "Concorrenti serviti dal postino. 'modello' vuoto = scelta automatica del modello più recente dell'autore (entro i limiti di prezzo); scrivere un id OpenRouter per fissarlo. 'ricerca': 'web' (strumento di ricerca OpenRouter), 'nativa' (il modello cerca da solo), 'no'. 'attivo': false per sospendere un concorrente. 'solo_gratis': true = solo modelli gratuiti di OpenRouter (:free), senza ricerca web, costo zero; false = modelli a pagamento entro i prezzi massimi.",
   "limiti": {
-    "solo_gratis": true,
-    "prezzo_max_input_per_milione": 6.0,
-    "prezzo_max_output_per_milione": 30.0,
+    "solo_gratis": false,
+    "prezzo_max_input_per_milione": 3.0,
+    "prezzo_max_output_per_milione": 10.0,
     "contesto_minimo": 100000,
     "max_token_risposta": 16000,
     "ragionamento": "high",
